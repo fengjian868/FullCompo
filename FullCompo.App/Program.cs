@@ -16,31 +16,40 @@ class Program
     [STAThread]
     public static void Main(string[] args)
     {
-        var host = CreateHostBuilder(args).Build();
-
-        // Pre-load configuration and themes before starting Avalonia
-        var configService = host.Services.GetRequiredService<IConfigService>();
-        configService.Load();
-
-        var themeService = host.Services.GetRequiredService<IThemeService>();
-        themeService.LoadThemes();
-        themeService.ApplyTheme(configService.AppSettings.ThemeId);
-
-        // Load plugins from config directory
-        var pluginService = host.Services.GetRequiredService<PluginService>();
-        var pluginsDirectory = Path.Combine(configService.GetConfigDirectory(), "plugins");
-        pluginService.LoadPlugins(pluginsDirectory);
-
+        IHost? host = null;
         try
         {
+            host = CreateHostBuilder(args).Build();
+
+            // Pre-load configuration and themes before starting Avalonia
+            var configService = host.Services.GetRequiredService<IConfigService>();
+            configService.Load();
+
+            var themeService = host.Services.GetRequiredService<IThemeService>();
+            themeService.LoadThemes();
+            themeService.ApplyTheme(configService.AppSettings.ThemeId);
+
+            // Load plugins from config directory
+            var pluginService = host.Services.GetRequiredService<PluginService>();
+            var pluginsDirectory = Path.Combine(configService.GetConfigDirectory(), "plugins");
+            pluginService.LoadPlugins(pluginsDirectory);
+
             BuildAvaloniaApp(host.Services)
                 .StartWithClassicDesktopLifetime(args);
         }
         catch (Exception ex)
         {
-            var logger = host.Services.GetService<ILogger<Program>>();
-            logger?.LogCritical(ex, "Application crashed");
-            File.WriteAllText(Path.Combine(Path.GetTempPath(), "FullCompo_Crash.log"), ex.ToString());
+            try
+            {
+                host?.Services.GetService<ILogger<Program>>()?.LogCritical(ex, "Application crashed");
+            }
+            catch { }
+            try
+            {
+                var logPath = Path.Combine(Path.GetTempPath(), "FullCompo_Crash.log");
+                File.WriteAllText(logPath, ex.ToString());
+            }
+            catch { }
             throw;
         }
     }
