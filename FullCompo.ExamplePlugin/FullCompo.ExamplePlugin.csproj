@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FullCompo.PluginSdk\FullCompo.PluginSdk.csproj" />
+  </ItemGroup>
+
+  <!-- 调试时自动将插件输出复制到主程序的 plugins 目录 -->
+  <Target Name="CopyPluginToApp" AfterTargets="Build">
+    <PropertyGroup>
+      <AppPluginsDir>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\..\FullCompo.App\bin\$(Configuration)\$(TargetFramework)\plugins\$(AssemblyName)'))</AppPluginsDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <PluginOutput Include="$(TargetDir)\*" />
+    </ItemGroup>
+    <MakeDir Directories="$(AppPluginsDir)" />
+    <Copy SourceFiles="@(PluginOutput)" DestinationFolder="$(AppPluginsDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

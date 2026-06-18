@@ -26,6 +26,11 @@ class Program
         themeService.LoadThemes();
         themeService.ApplyTheme(configService.AppSettings.ThemeId);
 
+        // Load plugins from config directory
+        var pluginService = host.Services.GetRequiredService<PluginService>();
+        var pluginsDirectory = Path.Combine(configService.GetConfigDirectory(), "plugins");
+        pluginService.LoadPlugins(pluginsDirectory);
+
         BuildAvaloniaApp(host.Services)
             .StartWithClassicDesktopLifetime(args);
     }
@@ -39,6 +44,7 @@ class Program
                 services.AddSingleton<IThemeService, ThemeService>();
                 services.AddSingleton<IWidgetRegistry, WidgetRegistry>();
                 services.AddSingleton<IPanelService, PanelService>();
+                services.AddSingleton<PluginService>();
                 services.AddSingleton<BuiltinWidgetProvider>();
 
                 services.AddLogging(builder =>

@@ -23,6 +23,7 @@
 /root/.nuget/packages/avalonia.x11/11.2.6/lib/net8.0/Avalonia.X11.dll
 /root/.nuget/packages/fluentavaloniaui/2.4.1/lib/net6.0/FluentAvalonia.dll
 /workspace/FullCompo.Core/obj/Debug/net8.0/ref/FullCompo.Core.dll
+/workspace/FullCompo.PluginSdk/obj/Debug/net8.0/ref/FullCompo.PluginSdk.dll
 /workspace/FullCompo.Shared/obj/Debug/net8.0/ref/FullCompo.Shared.dll
 /workspace/FullCompo.Widgets.Builtin/obj/Debug/net8.0/ref/FullCompo.Widgets.Builtin.dll
 /root/.nuget/packages/harfbuzzsharp/7.3.0.3/lib/net6.0/HarfBuzzSharp.dll

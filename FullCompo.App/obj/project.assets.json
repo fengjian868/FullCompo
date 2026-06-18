@@ -1255,6 +1255,20 @@
           "bin/placeholder/FullCompo.Core.dll": {}
         }
       },
+      "FullCompo.PluginSdk/0.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FullCompo.Core": "1.0.0",
+          "FullCompo.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FullCompo.PluginSdk.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FullCompo.PluginSdk.dll": {}
+        }
+      },
       "FullCompo.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3205,6 +3219,11 @@
       "path": "../FullCompo.Core/FullCompo.Core.csproj",
       "msbuildProject": "../FullCompo.Core/FullCompo.Core.csproj"
     },
+    "FullCompo.PluginSdk/0.1.0": {
+      "type": "project",
+      "path": "../FullCompo.PluginSdk/FullCompo.PluginSdk.csproj",
+      "msbuildProject": "../FullCompo.PluginSdk/FullCompo.PluginSdk.csproj"
+    },
     "FullCompo.Shared/1.0.0": {
       "type": "project",
       "path": "../FullCompo.Shared/FullCompo.Shared.csproj",
@@ -3224,6 +3243,7 @@
       "Avalonia.Fonts.Inter >= 11.2.6",
       "FluentAvaloniaUI >= 2.4.1",
       "FullCompo.Core >= 1.0.0",
+      "FullCompo.PluginSdk >= 0.1.0",
       "FullCompo.Shared >= 1.0.0",
       "FullCompo.Widgets.Builtin >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
@@ -3258,6 +3278,9 @@
           "projectReferences": {
             "/workspace/FullCompo.Core/FullCompo.Core.csproj": {
               "projectPath": "/workspace/FullCompo.Core/FullCompo.Core.csproj"
+            },
+            "/workspace/FullCompo.PluginSdk/FullCompo.PluginSdk.csproj": {
+              "projectPath": "/workspace/FullCompo.PluginSdk/FullCompo.PluginSdk.csproj"
             },
             "/workspace/FullCompo.Shared/FullCompo.Shared.csproj": {
               "projectPath": "/workspace/FullCompo.Shared/FullCompo.Shared.csproj"
