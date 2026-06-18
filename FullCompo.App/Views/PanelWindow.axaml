@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="FullCompo.App.Views.PanelWindow"
+        SystemDecorations="None"
+        TransparencyLevelHint="Transparent"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        CanResize="False"
+        Width="400"
+        Height="200">
+    <Grid x:Name="RootGrid">
+        <Border x:Name="PanelBorder"
+                Background="{DynamicResource ThemeBackgroundColor}"
+                BorderBrush="{DynamicResource ThemeBorderColor}"
+                BorderThickness="{DynamicResource ThemeBorderThickness}"
+                CornerRadius="{DynamicResource ThemeCornerRadius}"
+                Padding="8">
+            <Grid x:Name="WidgetGrid" />
+        </Border>
+    </Grid>
+</Window>

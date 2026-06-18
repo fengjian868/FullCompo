@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/FullCompo.App/FullCompo.App.csproj": {}
+  },
+  "projects": {
+    "/workspace/FullCompo.App/FullCompo.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/FullCompo.App/FullCompo.App.csproj",
+        "projectName": "FullCompo.App",
+        "projectPath": "/workspace/FullCompo.App/FullCompo.App.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspace/FullCompo.App/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/FullCompo.Core/FullCompo.Core.csproj": {
+                "projectPath": "/workspace/FullCompo.Core/FullCompo.Core.csproj"
+              },
+              "/workspace/FullCompo.Shared/FullCompo.Shared.csproj": {
+                "projectPath": "/workspace/FullCompo.Shared/FullCompo.Shared.csproj"
+              },
+              "/workspace/FullCompo.Widgets.Builtin/FullCompo.Widgets.Builtin.csproj": {
+                "projectPath": "/workspace/FullCompo.Widgets.Builtin/FullCompo.Widgets.Builtin.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.6, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.2.6, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.2.6, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.2.6, )"
+            },
+            "FluentAvaloniaUI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/FullCompo.Core/FullCompo.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/FullCompo.Core/FullCompo.Core.csproj",
+        "projectName": "FullCompo.Core",
+        "projectPath": "/workspace/FullCompo.Core/FullCompo.Core.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspace/FullCompo.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/FullCompo.Shared/FullCompo.Shared.csproj": {
+                "projectPath": "/workspace/FullCompo.Shared/FullCompo.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.6, )"
+            },
+            "FluentAvaloniaUI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/FullCompo.Shared/FullCompo.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/FullCompo.Shared/FullCompo.Shared.csproj",
+        "projectName": "FullCompo.Shared",
+        "projectPath": "/workspace/FullCompo.Shared/FullCompo.Shared.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspace/FullCompo.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/FullCompo.Widgets.Builtin/FullCompo.Widgets.Builtin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/FullCompo.Widgets.Builtin/FullCompo.Widgets.Builtin.csproj",
+        "projectName": "FullCompo.Widgets.Builtin",
+        "projectPath": "/workspace/FullCompo.Widgets.Builtin/FullCompo.Widgets.Builtin.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspace/FullCompo.Widgets.Builtin/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/FullCompo.Core/FullCompo.Core.csproj": {
+                "projectPath": "/workspace/FullCompo.Core/FullCompo.Core.csproj"
+              },
+              "/workspace/FullCompo.Shared/FullCompo.Shared.csproj": {
+                "projectPath": "/workspace/FullCompo.Shared/FullCompo.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/root/.dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/workspace/FullCompo.Shared/bin/Debug/net8.0/FullCompo.Shared.deps.json
+/workspace/FullCompo.Shared/bin/Debug/net8.0/FullCompo.Shared.dll
+/workspace/FullCompo.Shared/bin/Debug/net8.0/FullCompo.Shared.pdb
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.AssemblyInfoInputs.cache
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.AssemblyInfo.cs
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.csproj.CoreCompileInputs.cache
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.sourcelink.json
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.dll
+/workspace/FullCompo.Shared/obj/Debug/net8.0/refint/FullCompo.Shared.dll
+/workspace/FullCompo.Shared/obj/Debug/net8.0/FullCompo.Shared.pdb
+/workspace/FullCompo.Shared/obj/Debug/net8.0/ref/FullCompo.Shared.dll
