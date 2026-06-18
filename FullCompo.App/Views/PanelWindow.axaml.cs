@@ -154,9 +154,37 @@ public partial class PanelWindow : Window
         PanelBorder.IsHitTestVisible = isEditMode;
         PanelBorder.Opacity = isEditMode ? 1.0 : _services.GetRequiredService<IThemeService>().CurrentTheme.Opacity;
 
+        ApplyClickThrough();
+
         foreach (var host in _widgetHosts)
         {
             host.SetEditMode(isEditMode);
+        }
+    }
+
+    private void ApplyClickThrough()
+    {
+        var clickThrough = _services.GetRequiredService<IConfigService>().AppSettings.ClickThrough && !IsEditMode;
+
+        // Avalonia doesn't have a direct ClickThrough API, but we can disable hit test on the window content
+        // and use platform-specific APIs for full click-through. This is a best-effort implementation.
+        if (clickThrough)
+        {
+            PanelBorder.IsHitTestVisible = false;
+            WidgetGrid.IsHitTestVisible = false;
+            foreach (var host in _widgetHosts)
+            {
+                host.IsHitTestVisible = false;
+            }
+        }
+        else
+        {
+            PanelBorder.IsHitTestVisible = true;
+            WidgetGrid.IsHitTestVisible = true;
+            foreach (var host in _widgetHosts)
+            {
+                host.IsHitTestVisible = IsEditMode;
+            }
         }
     }
 
@@ -233,7 +261,14 @@ public partial class PanelWindow : Window
 
     private void ShowPanelSettings()
     {
-        // Placeholder for panel settings dialog
+        var dialog = new PanelSettingsDialog(_config);
+        dialog.Closed += (_, _) =>
+        {
+            SaveLayout();
+            ReloadLayout();
+            UpdatePosition();
+        };
+        dialog.Show(this);
     }
 
     internal void RemoveWidget(WidgetInstanceConfig config)

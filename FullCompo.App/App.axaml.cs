@@ -5,6 +5,7 @@ using Avalonia.Input;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
+using FullCompo.App.Views;
 using FullCompo.Core.Abstractions;
 using FullCompo.Core.Abstractions.Services;
 using FullCompo.Widgets.Builtin;
@@ -112,7 +113,8 @@ public partial class App : Application
 
     private void OpenSettings()
     {
-        // Placeholder for settings window
+        var window = new AppSettingsWindow(_services);
+        window.Show();
     }
 
     private void Shutdown()

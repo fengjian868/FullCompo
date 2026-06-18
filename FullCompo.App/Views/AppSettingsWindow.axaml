@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="FullCompo.App.Views.AppSettingsWindow"
+        Title="设置"
+        Width="360"
+        Height="300"
+        WindowStartupLocation="CenterScreen">
+    <Grid RowDefinitions="Auto,*,Auto" Margin="16">
+        <TextBlock Text="应用设置" FontSize="18" FontWeight="Bold" Margin="0,0,0,12" />
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Spacing="12">
+                <TextBlock Text="主题" />
+                <ComboBox x:Name="ThemeBox" HorizontalAlignment="Stretch" />
+
+                <TextBlock Text="开机自启" />
+                <ToggleSwitch x:Name="StartupToggle" />
+
+                <TextBlock Text="显示托盘图标" />
+                <ToggleSwitch x:Name="TrayToggle" />
+
+                <TextBlock Text="穿透点击（运行时鼠标可穿透面板）" />
+                <ToggleSwitch x:Name="ClickThroughToggle" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,12,0,0">
+            <Button x:Name="SaveButton" Content="保存" />
+            <Button x:Name="CancelButton" Content="取消" />
+        </StackPanel>
+    </Grid>
+</Window>
