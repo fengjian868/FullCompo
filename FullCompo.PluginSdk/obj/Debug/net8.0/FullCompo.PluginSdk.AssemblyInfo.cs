@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Plugin SDK for FullCompo widget platform")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+394c3601568e8785b83e205a195fc82ebc6a8bb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab09244d0202fe265325d4a476848f5e6ff76f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullCompo.PluginSdk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullCompo.PluginSdk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

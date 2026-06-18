@@ -1,0 +1,9 @@
+/workspace/publish/win-x64/FullCompo.App.pdb
+/workspace/publish/win-x64/av_libglesv2.dll
+/workspace/publish/win-x64/libHarfBuzzSharp.dll
+/workspace/publish/win-x64/libSkiaSharp.dll
+/workspace/publish/win-x64/FullCompo.Core.pdb
+/workspace/publish/win-x64/FullCompo.PluginSdk.pdb
+/workspace/publish/win-x64/FullCompo.Shared.pdb
+/workspace/publish/win-x64/FullCompo.Widgets.Builtin.pdb
+/workspace/publish/win-x64/FullCompo.App.exe

@@ -1,0 +1,17 @@
+/workspace/FullCompo.Core/bin/Release/net8.0/FullCompo.Core.deps.json
+/workspace/FullCompo.Core/bin/Release/net8.0/FullCompo.Core.dll
+/workspace/FullCompo.Core/bin/Release/net8.0/FullCompo.Core.pdb
+/workspace/FullCompo.Core/bin/Release/net8.0/FullCompo.Shared.dll
+/workspace/FullCompo.Core/bin/Release/net8.0/FullCompo.Shared.pdb
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.csproj.AssemblyReference.cache
+/workspace/FullCompo.Core/obj/Release/net8.0/Avalonia/Resources.Inputs.cache
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.AssemblyInfoInputs.cache
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.AssemblyInfo.cs
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.csproj.CoreCompileInputs.cache
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.sourcelink.json
+/workspace/FullCompo.Core/obj/Release/net8.0/FullComp.B58FB9F8.Up2Date
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.dll
+/workspace/FullCompo.Core/obj/Release/net8.0/refint/FullCompo.Core.dll
+/workspace/FullCompo.Core/obj/Release/net8.0/FullCompo.Core.pdb
+/workspace/FullCompo.Core/obj/Release/net8.0/ref/FullCompo.Core.dll
