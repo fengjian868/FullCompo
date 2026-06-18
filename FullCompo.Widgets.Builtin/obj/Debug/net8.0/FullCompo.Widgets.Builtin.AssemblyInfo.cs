@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullCompo.Widgets.Builtin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08b7d86e7637a19f8d1f36708ff243a3d06a56ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb9ce84cec61f8cfd9ccf0ef72bb7f5f9ecad705")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullCompo.Widgets.Builtin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullCompo.Widgets.Builtin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

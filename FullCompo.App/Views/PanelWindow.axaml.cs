@@ -1,7 +1,9 @@
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
+using FullCompo.App.Controls;
 using FullCompo.Core.Abstractions;
 using FullCompo.Core.Abstractions.Services;
 using FullCompo.Core.Models;
@@ -17,22 +19,30 @@ public partial class PanelWindow : Window
     private readonly PanelConfig _config;
     private readonly IWidgetRegistry _widgetRegistry;
     private readonly IServiceProvider _services;
+    private readonly IConfigService _configService;
     private readonly ILogger<PanelWindow> _logger;
-    private readonly List<Control> _widgetViews = new();
+    private readonly List<WidgetHost> _widgetHosts = new();
 
     public PanelConfig Config => _config;
+    public bool IsEditMode { get; private set; }
 
     public PanelWindow(PanelConfig config, IServiceProvider services)
     {
         _config = config;
         _services = services;
         _widgetRegistry = services.GetRequiredService<IWidgetRegistry>();
+        _configService = services.GetRequiredService<IConfigService>();
         _logger = services.GetRequiredService<ILogger<PanelWindow>>();
 
         InitializeComponent();
-        SetupGrid();
-        LoadWidgets();
+        SetupContextMenu();
+        ReloadLayout();
         UpdatePosition();
+    }
+
+    private void InitializeComponent()
+    {
+        AvaloniaXamlLoader.Load(this);
     }
 
     private void SetupGrid()
@@ -53,8 +63,11 @@ public partial class PanelWindow : Window
         }
     }
 
-    private void LoadWidgets()
+    public void ReloadLayout()
     {
+        _widgetHosts.Clear();
+        SetupGrid();
+
         foreach (var widgetConfig in _config.Widgets)
         {
             var widget = _widgetRegistry.GetWidget(widgetConfig.WidgetId);
@@ -81,19 +94,24 @@ public partial class PanelWindow : Window
                 var view = widget.CreateView(context);
                 view.Margin = new Thickness(_config.Spacing / 2);
 
-                Grid.SetColumn(view, widgetConfig.Column);
-                Grid.SetRow(view, widgetConfig.Row);
-                Grid.SetColumnSpan(view, widgetConfig.ColumnSpan);
-                Grid.SetRowSpan(view, widgetConfig.RowSpan);
+                var host = new WidgetHost(this, widgetConfig);
+                host.SetWidgetView(view);
 
-                WidgetGrid.Children.Add(view);
-                _widgetViews.Add(view);
+                Grid.SetColumn(host, widgetConfig.Column);
+                Grid.SetRow(host, widgetConfig.Row);
+                Grid.SetColumnSpan(host, widgetConfig.ColumnSpan);
+                Grid.SetRowSpan(host, widgetConfig.RowSpan);
+
+                WidgetGrid.Children.Add(host);
+                _widgetHosts.Add(host);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to load widget {WidgetId}", widgetConfig.WidgetId);
             }
         }
+
+        SetEditMode(IsEditMode);
     }
 
     public void UpdatePosition()
@@ -132,7 +150,96 @@ public partial class PanelWindow : Window
 
     public void SetEditMode(bool isEditMode)
     {
+        IsEditMode = isEditMode;
         PanelBorder.IsHitTestVisible = isEditMode;
         PanelBorder.Opacity = isEditMode ? 1.0 : _services.GetRequiredService<IThemeService>().CurrentTheme.Opacity;
+
+        foreach (var host in _widgetHosts)
+        {
+            host.SetEditMode(isEditMode);
+        }
+    }
+
+    public void SaveLayout()
+    {
+        _configService.Save();
+    }
+
+    private void SetupContextMenu()
+    {
+        var contextMenu = new ContextMenu();
+
+        var editModeItem = new MenuItem { Header = "编辑模式" };
+        editModeItem.Click += (_, _) => ToggleEditMode();
+
+        var addWidgetItem = new MenuItem { Header = "添加组件" };
+        addWidgetItem.Click += (_, _) => ShowAddWidgetDialog();
+
+        var panelSettingsItem = new MenuItem { Header = "面板设置" };
+        panelSettingsItem.Click += (_, _) => ShowPanelSettings();
+
+        contextMenu.Items.Add(editModeItem);
+        contextMenu.Items.Add(addWidgetItem);
+        contextMenu.Items.Add(panelSettingsItem);
+
+        ContextMenu = contextMenu;
+    }
+
+    private void ToggleEditMode()
+    {
+        var panelService = _services.GetRequiredService<IPanelService>();
+        if (IsEditMode)
+        {
+            panelService.ExitEditMode();
+        }
+        else
+        {
+            panelService.EnterEditMode();
+        }
+    }
+
+    private void ShowAddWidgetDialog()
+    {
+        var menu = new ContextMenu();
+        foreach (var widget in _widgetRegistry.GetAllWidgets())
+        {
+            var item = new MenuItem { Header = widget.Name };
+            item.Click += (_, _) => AddWidget(widget.Id);
+            menu.Items.Add(item);
+        }
+        menu.Open(this);
+    }
+
+    private void AddWidget(string widgetId)
+    {
+        var widget = _widgetRegistry.GetWidget(widgetId);
+        if (widget == null) return;
+
+        var size = widget.SupportedSizes.First();
+        var config = new WidgetInstanceConfig
+        {
+            WidgetId = widgetId,
+            Column = 0,
+            Row = 0,
+            ColumnSpan = size.Columns,
+            RowSpan = size.Rows,
+            Settings = widget.CreateDefaultSettings()
+        };
+
+        _config.Widgets.Add(config);
+        ReloadLayout();
+        SaveLayout();
+    }
+
+    private void ShowPanelSettings()
+    {
+        // Placeholder for panel settings dialog
+    }
+
+    internal void RemoveWidget(WidgetInstanceConfig config)
+    {
+        _config.Widgets.Remove(config);
+        ReloadLayout();
+        SaveLayout();
     }
 }
