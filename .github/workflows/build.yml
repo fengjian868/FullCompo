@@ -33,11 +33,31 @@ jobs:
       - name: Publish
         run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/win-x64
 
+      - name: Package
+        shell: pwsh
+        run: |
+          $src = "./publish/win-x64"
+          $files = Get-ChildItem -Path $src -File
+          $exe = $files | Where-Object { $_.Extension -eq ".exe" } | Select-Object -First 1
+          if ($exe) {
+            Write-Host "Found EXE: $($exe.Name)"
+          } else {
+            Write-Host "No EXE found, listing files:"
+            Get-ChildItem -Path $src | ForEach-Object { Write-Host $_.Name }
+          }
+          Compress-Archive -Path "$src\*" -DestinationPath "./publish/FullCompo-win-x64.zip" -Force
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: FullCompo-win-x64
           path: ./publish/win-x64
+
+      - name: Upload ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: FullCompo-win-x64-zip
+          path: ./publish/FullCompo-win-x64.zip
 
   build-linux:
     runs-on: ubuntu-latest
@@ -61,11 +81,24 @@ jobs:
       - name: Publish
         run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o ./publish/linux-x64
 
+      - name: Package
+        run: |
+          cd ./publish/linux-x64
+          chmod +x FullCompo.App 2>/dev/null || true
+          tar -czf ../FullCompo-linux-x64.tar.gz *
+          cd ../..
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: FullCompo-linux-x64
           path: ./publish/linux-x64
+
+      - name: Upload TAR.GZ
+        uses: actions/upload-artifact@v4
+        with:
+          name: FullCompo-linux-x64-tar
+          path: ./publish/FullCompo-linux-x64.tar.gz
 
   summary:
     needs: [build-windows, build-linux]
@@ -84,5 +117,11 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- [Download Artifact](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
           echo "- [Nightly.link Download](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}) (GhProxy Fastly Mirror / GhProxy Mirror)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Windows" >> $GITHUB_STEP_SUMMARY
+          echo "- [FullCompo-win-x64.zip](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}/FullCompo-win-x64-zip.zip)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Linux" >> $GITHUB_STEP_SUMMARY
+          echo "- [FullCompo-linux-x64.tar.gz](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}/FullCompo-linux-x64-tar.zip)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "_Job summary generated at run-time_" >> $GITHUB_STEP_SUMMARY
