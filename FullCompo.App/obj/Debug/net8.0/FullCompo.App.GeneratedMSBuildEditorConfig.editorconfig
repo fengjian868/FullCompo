@@ -22,9 +22,6 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/workspace/FullCompo.App/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/workspace/FullCompo.App/MainWindow.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
 [/workspace/FullCompo.App/Views/AppSettingsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
