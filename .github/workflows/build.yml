@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -46,22 +48,39 @@ jobs:
             --runtime ${{ matrix.rid }} `
             --channel ${{ matrix.rid }}
 
-      - name: Extract portable zip for upload
+      - name: Prepare release zip (ClassIsland-style structure)
         shell: pwsh
         run: |
           $portableZip = Get-ChildItem ./releases/${{ matrix.rid }}/*-Portable.zip | Select-Object -First 1
           if ($portableZip) {
-            $dest = "./portable/${{ matrix.rid }}"
+            $dest = "./dist/FullCompo-${{ matrix.rid }}"
             New-Item -ItemType Directory -Force -Path $dest
             Expand-Archive -Path $portableZip.FullName -DestinationPath $dest -Force
             Write-Host "Extracted portable zip to $dest"
             Get-ChildItem $dest -Recurse | ForEach-Object { Write-Host $_.FullName }
+            $zipPath = "./dist/FullCompo-${{ matrix.rid }}.zip"
+            Compress-Archive -Path "$dest\*" -DestinationPath $zipPath -Force
+            Write-Host "Created release zip: $zipPath"
           } else {
             Write-Error "Portable zip not found!"
           }
 
-      - name: Upload portable (ClassIsland-style structure)
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: FullCompo-${{ matrix.rid }}
-          path: ./portable/${{ matrix.rid }}/*
+          path: ./dist/FullCompo-${{ matrix.rid }}.zip
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          tag_name: nightly
+          name: Nightly Build
+          draft: false
+          prerelease: true
+          files: ./dist/FullCompo-${{ matrix.rid }}.zip
+          body: |
+            Automated nightly build from commit ${{ github.sha }}.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
