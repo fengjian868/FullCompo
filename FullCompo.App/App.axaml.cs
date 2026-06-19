@@ -72,18 +72,18 @@ public partial class App : Application
                     var welcomeWindow = new WelcomeWindow(_services);
                     welcomeWindow.Closed += (_, _) =>
                     {
-                        try { _panelService.CreateOrUpdatePanels(); }
+                        try { _panelService.CreateOrUpdateWidgets(); }
                         catch (Exception ex2)
                         {
                             var logger = _services.GetService<ILogger<App>>();
-                            logger?.LogError(ex2, "Failed to create panels after welcome");
+                            logger?.LogError(ex2, "Failed to create widgets after welcome");
                         }
                     };
                     welcomeWindow.Show();
                 }
                 else
                 {
-                    _panelService.CreateOrUpdatePanels();
+                    _panelService.CreateOrUpdateWidgets();
                 }
             }
             catch (Exception ex)

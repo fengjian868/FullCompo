@@ -16,24 +16,37 @@ public class WeatherWidget : WidgetBase
 
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
-        new WidgetSize { Id = "weather-small", Name = "小", Type = WidgetSizeType.Small, Columns = 1, Rows = 1 }
+        new WidgetSize { Id = "1x1", Name = "方形", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 120, Height = 120 },
+        new WidgetSize { Id = "2x1", Name = "横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 248, Height = 120 }
     };
 
     public override Control CreateView(WidgetContext context)
     {
-        var textBlock = new TextBlock
+        var stack = new StackPanel
         {
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
-            FontSize = 14,
-            Text = "☁ 27°C"
+            Spacing = 4
         };
 
-        return new Border
+        var iconText = new TextBlock
         {
-            CornerRadius = new CornerRadius(8),
-            Padding = new Thickness(8, 4),
-            Child = textBlock
+            HorizontalAlignment = HorizontalAlignment.Center,
+            FontSize = 28,
+            Text = "☁️"
         };
+
+        var tempText = new TextBlock
+        {
+            HorizontalAlignment = HorizontalAlignment.Center,
+            FontSize = 16,
+            FontWeight = FontWeight.SemiBold,
+            Text = "27°C"
+        };
+
+        stack.Children.Add(iconText);
+        stack.Children.Add(tempText);
+
+        return stack;
     }
 }

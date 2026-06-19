@@ -17,31 +17,45 @@ public class DateWidget : WidgetBase
 
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
-        new WidgetSize { Id = "date-small", Name = "小", Type = WidgetSizeType.Small, Columns = 1, Rows = 1 }
+        new WidgetSize { Id = "1x1", Name = "方形", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 120, Height = 120 },
+        new WidgetSize { Id = "2x1", Name = "横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 248, Height = 120 }
     };
 
     public override Control CreateView(WidgetContext context)
     {
-        var textBlock = new TextBlock
+        var stack = new StackPanel
         {
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
-            FontSize = 14,
-            Text = DateTime.Now.ToString("ddd MM/dd")
+            Spacing = 4
         };
 
-        var timer = new DispatcherTimer
+        var dateText = new TextBlock
         {
-            Interval = TimeSpan.FromSeconds(1)
+            HorizontalAlignment = HorizontalAlignment.Center,
+            FontSize = 16,
+            FontWeight = FontWeight.SemiBold,
+            Text = DateTime.Now.ToString("MM/dd")
         };
-        timer.Tick += (_, _) => textBlock.Text = DateTime.Now.ToString("ddd MM/dd");
+
+        var weekText = new TextBlock
+        {
+            HorizontalAlignment = HorizontalAlignment.Center,
+            FontSize = 13,
+            Text = DateTime.Now.ToString("ddd")
+        };
+
+        stack.Children.Add(dateText);
+        stack.Children.Add(weekText);
+
+        var timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
+        timer.Tick += (_, _) =>
+        {
+            dateText.Text = DateTime.Now.ToString("MM/dd");
+            weekText.Text = DateTime.Now.ToString("ddd");
+        };
         timer.Start();
 
-        return new Border
-        {
-            CornerRadius = new CornerRadius(8),
-            Padding = new Thickness(8, 4),
-            Child = textBlock
-        };
+        return stack;
     }
 }

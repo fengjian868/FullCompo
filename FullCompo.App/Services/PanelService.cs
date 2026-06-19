@@ -9,41 +9,79 @@ public class PanelService : IPanelService
 {
     private readonly IServiceProvider _services;
     private readonly IConfigService _configService;
-    private readonly List<PanelWindow> _panels = new();
+    private readonly IWidgetRegistry _widgetRegistry;
+    private readonly List<WidgetWindow> _widgetWindows = new();
 
-    public IReadOnlyList<Window> Panels => _panels.Cast<Window>().ToList().AsReadOnly();
+    public IReadOnlyList<Window> WidgetWindows => _widgetWindows.Cast<Window>().ToList().AsReadOnly();
     public bool IsEditMode { get; private set; }
 
     public event EventHandler<bool>? EditModeChanged;
 
-    public PanelService(IServiceProvider services, IConfigService configService)
+    public PanelService(IServiceProvider services, IConfigService configService, IWidgetRegistry widgetRegistry)
     {
         _services = services;
         _configService = configService;
+        _widgetRegistry = widgetRegistry;
     }
 
-    public void CreateOrUpdatePanels()
+    public void CreateOrUpdateWidgets()
     {
-        foreach (var panel in _panels)
+        // Close existing windows
+        foreach (var window in _widgetWindows)
         {
-            panel.Close();
+            window.Close();
         }
-        _panels.Clear();
+        _widgetWindows.Clear();
 
-        foreach (var config in _configService.Panels)
+        // Create a window for each widget across all panels
+        var gridX = 16.0;
+        var gridY = 16.0;
+        var rowHeight = 0.0;
+        var screenWidth = 1920.0; // default, will be overridden by actual position
+
+        foreach (var panel in _configService.Panels)
         {
-            var window = new PanelWindow(config, _services);
-            _panels.Add(window);
-            window.Show();
+            foreach (var widgetConfig in panel.Widgets)
+            {
+                var widget = _widgetRegistry.GetWidget(widgetConfig.WidgetId);
+                if (widget == null) continue;
+
+                // Auto-position if not set
+                if (widgetConfig.PosX == 0 && widgetConfig.PosY == 0)
+                {
+                    var size = widget.SupportedSizes.FirstOrDefault(s => s.Id == widgetConfig.SizeId)
+                        ?? widget.SupportedSizes.First();
+
+                    widgetConfig.PosX = gridX;
+                    widgetConfig.PosY = gridY;
+
+                    rowHeight = Math.Max(rowHeight, size.Height);
+                    gridX += size.Width + 8;
+
+                    // Wrap to next row if exceeds screen width
+                    if (gridX > screenWidth - 140)
+                    {
+                        gridX = 16;
+                        gridY += rowHeight + 8;
+                        rowHeight = 0;
+                    }
+                }
+
+                var window = new WidgetWindow(widgetConfig, widget, _services);
+                _widgetWindows.Add(window);
+                window.Show();
+            }
         }
+
+        _configService.Save();
     }
 
     public void EnterEditMode()
     {
         IsEditMode = true;
-        foreach (var panel in _panels)
+        foreach (var window in _widgetWindows)
         {
-            panel.SetEditMode(true);
+            window.SetEditMode(true);
         }
         EditModeChanged?.Invoke(this, true);
     }
@@ -51,11 +89,21 @@ public class PanelService : IPanelService
     public void ExitEditMode()
     {
         IsEditMode = false;
-        foreach (var panel in _panels)
+        foreach (var window in _widgetWindows)
         {
-            panel.SetEditMode(false);
+            window.SetEditMode(false);
         }
         _configService.Save();
         EditModeChanged?.Invoke(this, false);
+    }
+
+    public void RemoveWidget(WidgetInstanceConfig config)
+    {
+        foreach (var panel in _configService.Panels)
+        {
+            if (panel.Widgets.Remove(config))
+                break;
+        }
+        _configService.Save();
     }
 }

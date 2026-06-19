@@ -19,8 +19,8 @@ public class LauncherWidget : WidgetBase
 
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
-        new WidgetSize { Id = "launcher-small", Name = "小", Type = WidgetSizeType.Small, Columns = 1, Rows = 1 },
-        new WidgetSize { Id = "launcher-medium", Name = "中", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1 }
+        new WidgetSize { Id = "1x1", Name = "方形", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 120, Height = 120 },
+        new WidgetSize { Id = "2x1", Name = "横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 248, Height = 120 }
     };
 
     public override WidgetSettings CreateDefaultSettings()
@@ -36,18 +36,37 @@ public class LauncherWidget : WidgetBase
         var target = context.Settings.GetValue("target", "https://www.bing.com") ?? "https://www.bing.com";
         var label = context.Settings.GetValue("label", "必应") ?? "必应";
 
-        var button = new Button
+        var stack = new StackPanel
         {
-            Content = label,
-            HorizontalAlignment = HorizontalAlignment.Stretch,
-            VerticalAlignment = VerticalAlignment.Stretch,
-            HorizontalContentAlignment = HorizontalAlignment.Center,
-            VerticalContentAlignment = VerticalAlignment.Center,
-            CornerRadius = new CornerRadius(8),
-            FontSize = 14
+            HorizontalAlignment = HorizontalAlignment.Center,
+            VerticalAlignment = VerticalAlignment.Center,
+            Spacing = 8
         };
 
-        button.Click += (_, _) =>
+        var iconText = new TextBlock
+        {
+            HorizontalAlignment = HorizontalAlignment.Center,
+            FontSize = 28,
+            Text = "🚀"
+        };
+
+        var labelText = new TextBlock
+        {
+            HorizontalAlignment = HorizontalAlignment.Center,
+            FontSize = 13,
+            Text = label
+        };
+
+        stack.Children.Add(iconText);
+        stack.Children.Add(labelText);
+
+        var border = new Border
+        {
+            Child = stack,
+            CornerRadius = new CornerRadius(16)
+        };
+
+        border.PointerPressed += (_, e) =>
         {
             try
             {
@@ -59,6 +78,6 @@ public class LauncherWidget : WidgetBase
             }
         };
 
-        return button;
+        return border;
     }
 }

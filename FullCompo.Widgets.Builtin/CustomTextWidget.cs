@@ -16,8 +16,9 @@ public class CustomTextWidget : WidgetBase
 
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
-        new WidgetSize { Id = "text-small", Name = "小", Type = WidgetSizeType.Small, Columns = 1, Rows = 1 },
-        new WidgetSize { Id = "text-medium", Name = "中", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1 }
+        new WidgetSize { Id = "1x1", Name = "方形", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 120, Height = 120 },
+        new WidgetSize { Id = "2x1", Name = "横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 248, Height = 120 },
+        new WidgetSize { Id = "2x2", Name = "大", Type = WidgetSizeType.Large, Columns = 2, Rows = 2, Width = 248, Height = 248 }
     };
 
     public override WidgetSettings CreateDefaultSettings()
