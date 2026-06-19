@@ -10,6 +10,7 @@ using FullCompo.Core.Abstractions;
 using FullCompo.Core.Abstractions.Services;
 using FullCompo.Widgets.Builtin;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace FullCompo.App;
 
@@ -40,8 +41,24 @@ public partial class App : Application
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
             desktop.MainWindow = new Window { IsVisible = false };
-            _panelService.CreateOrUpdatePanels();
-            SetupTrayIcon();
+            try
+            {
+                _panelService.CreateOrUpdatePanels();
+            }
+            catch (Exception ex)
+            {
+                var logger = _services.GetService<ILogger<App>>();
+                logger?.LogError(ex, "Failed to create panels");
+            }
+            try
+            {
+                SetupTrayIcon();
+            }
+            catch (Exception ex)
+            {
+                var logger = _services.GetService<ILogger<App>>();
+                logger?.LogError(ex, "Failed to setup tray icon");
+            }
         }
 
         base.OnFrameworkInitializationCompleted();

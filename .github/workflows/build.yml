@@ -1,0 +1,59 @@
+name: Build
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        rid: [win-x64, win-x86, win-arm64]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install Velopack CLI
+        run: dotnet tool install -g vpk --version 1.0.1
+
+      - name: Restore
+        run: dotnet restore FullCompo.sln
+
+      - name: Publish
+        run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r ${{ matrix.rid }} --self-contained true -o ./publish/${{ matrix.rid }}
+
+      - name: Pack with Velopack
+        shell: pwsh
+        run: |
+          $version = "1.0.${{ github.run_number }}"
+          vpk pack `
+            --packId FullCompo `
+            --packVersion $version `
+            --packDir ./publish/${{ matrix.rid }} `
+            --mainExe FullCompo.exe `
+            --outputDir ./releases/${{ matrix.rid }} `
+            --runtime ${{ matrix.rid }} `
+            --channel ${{ matrix.rid }}
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: FullCompo-${{ matrix.rid }}
+          path: ./releases/${{ matrix.rid }}/*
+
+      - name: Upload portable zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: FullCompo-${{ matrix.rid }}-Portable
+          path: ./releases/${{ matrix.rid }}/*-Portable.zip
