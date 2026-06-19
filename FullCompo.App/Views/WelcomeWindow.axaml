@@ -15,17 +15,10 @@
             <Grid RowDefinitions="Auto,*,Auto">
                 <!-- Logo 和名称 -->
                 <StackPanel Grid.Row="0" Spacing="12">
-                    <Border Width="48"
-                            Height="48"
-                            CornerRadius="10"
-                            Background="#FF0078D4">
-                        <TextBlock Text="F"
-                                   FontSize="24"
-                                   FontWeight="Bold"
-                                   Foreground="White"
-                                   HorizontalAlignment="Center"
-                                   VerticalAlignment="Center" />
-                    </Border>
+                    <Image Width="48"
+                           Height="48"
+                           Source="avares://FullCompo.App/Assets/logo.png"
+                           HorizontalAlignment="Left" />
                     <TextBlock Text="FullCompo"
                                FontSize="18"
                                FontWeight="SemiBold"

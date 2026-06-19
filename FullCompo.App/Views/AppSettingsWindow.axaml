@@ -93,18 +93,10 @@
                 <StackPanel Spacing="12">
                     <TextBlock Text="关于" FontSize="20" FontWeight="Bold" Foreground="#FF1F1F1F" />
 
-                    <Border Width="48"
-                            Height="48"
-                            CornerRadius="10"
-                            Background="#FF0078D4"
-                            HorizontalAlignment="Left">
-                        <TextBlock Text="F"
-                                   FontSize="24"
-                                   FontWeight="Bold"
-                                   Foreground="White"
-                                   HorizontalAlignment="Center"
-                                   VerticalAlignment="Center" />
-                    </Border>
+                    <Image Width="48"
+                           Height="48"
+                           Source="avares://FullCompo.App/Assets/logo.png"
+                           HorizontalAlignment="Left" />
 
                     <TextBlock Text="FullCompo" FontSize="16" FontWeight="SemiBold" Foreground="#FF1F1F1F" />
                     <TextBlock Text="版本 1.0.0" Foreground="#FF5F5F5F" FontSize="13" />
