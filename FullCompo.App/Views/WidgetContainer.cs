@@ -62,8 +62,8 @@ public class WidgetContainer : Border
         // Content area
         _contentBorder = new Border
         {
-            Background = GetBackgroundBrush(),
-            BorderBrush = GetBorderBrush(),
+            Background = GetThemedBrush("ThemeBackgroundBrush"),
+            BorderBrush = GetThemedBrush("ThemeBorderBrush"),
             BorderThickness = new Thickness(1),
             CornerRadius = CurrentSize.IsCircular ? new CornerRadius(CurrentSize.Width / 2) : new CornerRadius(18),
             Padding = new Thickness(8),
@@ -90,7 +90,7 @@ public class WidgetContainer : Border
         {
             Text = Widget.Name,
             FontSize = 10,
-            Foreground = new SolidColorBrush(Colors.White),
+            Foreground = GetThemedBrush("ThemeForegroundBrush"),
             Background = new SolidColorBrush(Color.Parse("#80000000")),
             Padding = new Thickness(4, 2),
             HorizontalAlignment = Avalonia.Layout.HorizontalAlignment.Left,
@@ -155,6 +155,7 @@ public class WidgetContainer : Border
             presenter.Content = new TextBlock
             {
                 Text = "加载失败",
+                Foreground = GetThemedBrush("ThemeErrorBrush"),
                 HorizontalAlignment = Avalonia.Layout.HorizontalAlignment.Center,
                 VerticalAlignment = Avalonia.Layout.VerticalAlignment.Center
             };
@@ -197,13 +198,13 @@ public class WidgetContainer : Border
         _isSelected = isSelected;
         if (isSelected && _isEditMode)
         {
-            _contentBorder.BorderBrush = new SolidColorBrush(Color.Parse("#0078D4"));
+            _contentBorder.BorderBrush = GetThemedBrush("ThemeAccentBrush");
             _contentBorder.BorderThickness = new Thickness(2);
             _deleteButton.IsVisible = true;
         }
         else
         {
-            _contentBorder.BorderBrush = GetBorderBrush();
+            _contentBorder.BorderBrush = GetThemedBrush("ThemeBorderBrush");
             _contentBorder.BorderThickness = new Thickness(1);
             _deleteButton.IsVisible = false;
         }
@@ -271,27 +272,17 @@ public class WidgetContainer : Border
 
         e.Pointer.Capture(null);
 
-        if (!_isDragging)
-        {
-            // It was a click, selection already handled in PointerPressed
-        }
-
         _isDragging = false;
         DragStateChanged?.Invoke(this, false);
         e.Handled = true;
     }
 
-    private IBrush GetBackgroundBrush()
+    private static IBrush GetThemedBrush(string resourceKey)
     {
-        var theme = _themeService.CurrentTheme;
-        var color = theme.BackgroundColor;
-        color = Color.FromArgb((byte)(255 * 0.92), color.R, color.G, color.B);
-        return new SolidColorBrush(color);
-    }
-
-    private IBrush GetBorderBrush()
-    {
-        var theme = _themeService.CurrentTheme;
-        return new SolidColorBrush(theme.BorderColor);
+        if (Application.Current?.TryGetResource(resourceKey, out var resource) == true && resource is IBrush brush)
+        {
+            return brush;
+        }
+        return Brushes.Transparent;
     }
 }

@@ -119,6 +119,12 @@ public partial class WelcomeWindow : Window
 
     private void UpdateStep()
     {
+        var app = Application.Current;
+        var accentBrush = app?.TryGetResource("ThemeAccentBrush", out var a) == true ? a as IBrush : Brushes.DodgerBlue;
+        var foregroundBrush = app?.TryGetResource("ThemeForegroundBrush", out var f) == true ? f as IBrush : Brushes.White;
+        var secondaryBrush = app?.TryGetResource("ThemeSecondaryForegroundBrush", out var s) == true ? s as IBrush : Brushes.Gray;
+        var disabledBrush = app?.TryGetResource("ThemeDisabledForegroundBrush", out var d) == true ? d as IBrush : Brushes.DarkGray;
+
         for (var i = 0; i < _stepContents.Count; i++)
         {
             _stepContents[i].IsVisible = i + 1 == _currentStep;
@@ -134,18 +140,18 @@ public partial class WelcomeWindow : Window
 
             if (i + 1 == _currentStep)
             {
-                ellipse.Fill = new SolidColorBrush(Color.Parse("#FF0078D4"));
-                text.Foreground = new SolidColorBrush(Color.Parse("#FF1F1F1F"));
+                ellipse.Fill = accentBrush;
+                text.Foreground = foregroundBrush;
             }
             else if (i + 1 < _currentStep)
             {
-                ellipse.Fill = new SolidColorBrush(Color.Parse("#FF0078D4"));
-                text.Foreground = new SolidColorBrush(Color.Parse("#FF5F5F5F"));
+                ellipse.Fill = accentBrush;
+                text.Foreground = secondaryBrush;
             }
             else
             {
-                ellipse.Fill = new SolidColorBrush(Color.Parse("#FFC4C4C4"));
-                text.Foreground = new SolidColorBrush(Color.Parse("#FF8A8A8A"));
+                ellipse.Fill = disabledBrush;
+                text.Foreground = secondaryBrush;
             }
         }
 

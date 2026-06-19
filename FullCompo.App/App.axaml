@@ -1,18 +1,31 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:sty="using:FluentAvalonia.Styling"
-             x:Class="FullCompo.App.App"
-             RequestedThemeVariant="Dark">
+             x:Class="FullCompo.App.App">
 
     <Application.Styles>
         <sty:FluentAvaloniaTheme />
     </Application.Styles>
 
     <Application.Resources>
-        <SolidColorBrush x:Key="ThemeBackgroundColor" Color="#CC1E1E1E" />
-        <SolidColorBrush x:Key="ThemeForegroundColor" Color="White" />
-        <SolidColorBrush x:Key="ThemeAccentColor" Color="#FF4A90E2" />
-        <SolidColorBrush x:Key="ThemeBorderColor" Color="#55FFFFFF" />
+        <!-- 基础色 -->
+        <SolidColorBrush x:Key="ThemeBackgroundBrush" Color="#CC1E1E1E" />
+        <SolidColorBrush x:Key="ThemeForegroundBrush" Color="White" />
+        <SolidColorBrush x:Key="ThemeAccentBrush" Color="#FF4A90E2" />
+        <SolidColorBrush x:Key="ThemeBorderBrush" Color="#55FFFFFF" />
+
+        <!-- 语义色 -->
+        <SolidColorBrush x:Key="ThemeSurfaceBrush" Color="#FF2D2D2D" />
+        <SolidColorBrush x:Key="ThemeSidebarBrush" Color="#FF252525" />
+        <SolidColorBrush x:Key="ThemeSecondaryForegroundBrush" Color="#FFAAAAAA" />
+        <SolidColorBrush x:Key="ThemeDisabledForegroundBrush" Color="#FF666666" />
+        <SolidColorBrush x:Key="ThemeDividerBrush" Color="#33FFFFFF" />
+        <SolidColorBrush x:Key="ThemeHoverBrush" Color="#1AFFFFFF" />
+        <SolidColorBrush x:Key="ThemeSelectionBrush" Color="#334A90E2" />
+        <SolidColorBrush x:Key="ThemeErrorBrush" Color="#FFFF4444" />
+        <SolidColorBrush x:Key="ThemeSuccessBrush" Color="#FF44CC88" />
+
+        <!-- 数值 -->
         <x:Double x:Key="ThemeBorderThickness">1</x:Double>
         <CornerRadius x:Key="ThemeCornerRadius">12</CornerRadius>
         <x:Double x:Key="ThemeFontSizeScale">1.0</x:Double>

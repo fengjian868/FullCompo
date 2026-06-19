@@ -18,8 +18,8 @@ public class SearchWidget : WidgetBase
 
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
-        new WidgetSize { Id = "2x1", Name = "横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 248, Height = 120 },
-        new WidgetSize { Id = "4x1", Name = "宽条", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 504, Height = 120 }
+        new WidgetSize { Id = "medium-hbar", Name = "中横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 200, Height = 100 },
+        new WidgetSize { Id = "large-hbar", Name = "大横条", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 160 }
     };
 
     public override Control CreateView(WidgetContext context)

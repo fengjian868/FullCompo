@@ -10,7 +10,7 @@
     <Grid ColumnDefinitions="180,*">
         <!-- 左侧导航栏 -->
         <Border Grid.Column="0"
-                Background="#FFFFFFFF"
+                Background="{DynamicResource ThemeSidebarBrush}"
                 Padding="20,24">
             <Grid RowDefinitions="Auto,*,Auto">
                 <!-- Logo 和名称 -->
@@ -22,36 +22,36 @@
                     <TextBlock Text="FullCompo"
                                FontSize="18"
                                FontWeight="SemiBold"
-                               Foreground="#FF1F1F1F" />
+                               Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <TextBlock Text="设置向导"
                                FontSize="12"
-                               Foreground="#FF8A8A8A" />
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" />
                 </StackPanel>
 
                 <!-- 步骤导航 -->
                 <StackPanel Grid.Row="1" Margin="0,32,0,0" Spacing="16" x:Name="StepIndicators">
                     <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step1Indicator">
-                        <Ellipse Width="8" Height="8" Fill="#FF0078D4" VerticalAlignment="Center" />
-                        <TextBlock Text="欢迎" Foreground="#FF1F1F1F" FontSize="14" />
+                        <Ellipse Width="8" Height="8" Fill="{DynamicResource ThemeAccentBrush}" VerticalAlignment="Center" />
+                        <TextBlock Text="欢迎" Foreground="{DynamicResource ThemeForegroundBrush}" FontSize="14" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step2Indicator">
-                        <Ellipse Width="8" Height="8" Fill="#FFC4C4C4" VerticalAlignment="Center" />
-                        <TextBlock Text="外观" Foreground="#FF8A8A8A" FontSize="14" />
+                        <Ellipse Width="8" Height="8" Fill="{DynamicResource ThemeDisabledForegroundBrush}" VerticalAlignment="Center" />
+                        <TextBlock Text="外观" Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" FontSize="14" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step3Indicator">
-                        <Ellipse Width="8" Height="8" Fill="#FFC4C4C4" VerticalAlignment="Center" />
-                        <TextBlock Text="快捷设置" Foreground="#FF8A8A8A" FontSize="14" />
+                        <Ellipse Width="8" Height="8" Fill="{DynamicResource ThemeDisabledForegroundBrush}" VerticalAlignment="Center" />
+                        <TextBlock Text="快捷设置" Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" FontSize="14" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step4Indicator">
-                        <Ellipse Width="8" Height="8" Fill="#FFC4C4C4" VerticalAlignment="Center" />
-                        <TextBlock Text="完成" Foreground="#FF8A8A8A" FontSize="14" />
+                        <Ellipse Width="8" Height="8" Fill="{DynamicResource ThemeDisabledForegroundBrush}" VerticalAlignment="Center" />
+                        <TextBlock Text="完成" Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" FontSize="14" />
                     </StackPanel>
                 </StackPanel>
             </Grid>
         </Border>
 
         <!-- 右侧内容区 -->
-        <Grid Grid.Column="1" RowDefinitions="*,Auto" Background="#FFF3F3F3">
+        <Grid Grid.Column="1" RowDefinitions="*,Auto" Background="{DynamicResource ThemeSurfaceBrush}">
             <!-- 内容区域 -->
             <Grid Grid.Row="0" Margin="32,28,32,0">
                 <!-- 步骤 1：欢迎 -->
@@ -59,14 +59,14 @@
                     <TextBlock Text="欢迎使用 FullCompo"
                                FontSize="28"
                                FontWeight="Bold"
-                               Foreground="#FF1F1F1F" />
+                               Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <TextBlock Text="在桌面上搭建你的个性化信息面板。"
                                FontSize="14"
-                               Foreground="#FF5F5F5F"
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                TextWrapping="Wrap" />
                     <TextBlock Text="首次使用，让我们花一分钟完成基本设置。"
                                FontSize="14"
-                               Foreground="#FF5F5F5F"
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                TextWrapping="Wrap" />
                 </StackPanel>
 
@@ -75,10 +75,10 @@
                     <TextBlock Text="选择外观"
                                FontSize="22"
                                FontWeight="Bold"
-                               Foreground="#FF1F1F1F" />
+                               Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <TextBlock Text="选择你喜欢的主题风格，可以随时在设置中更改。"
                                FontSize="13"
-                               Foreground="#FF5F5F5F"
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                TextWrapping="Wrap" />
 
                     <ComboBox x:Name="ThemeComboBox"
@@ -104,19 +104,19 @@
                     <TextBlock Text="快捷设置"
                                FontSize="22"
                                FontWeight="Bold"
-                               Foreground="#FF1F1F1F" />
+                               Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <TextBlock Text="配置一些常用选项，让 FullCompo 更方便使用。"
                                FontSize="13"
-                               Foreground="#FF5F5F5F"
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                TextWrapping="Wrap" />
 
                     <StackPanel Spacing="12" Margin="0,8,0,0">
                         <CheckBox x:Name="StartupCheckBox"
                                   Content="开机自动启动 FullCompo"
-                                  Foreground="#FF1F1F1F" />
+                                  Foreground="{DynamicResource ThemeForegroundBrush}" />
                         <CheckBox x:Name="ShortcutCheckBox"
                                   Content="创建桌面快捷方式"
-                                  Foreground="#FF1F1F1F" />
+                                  Foreground="{DynamicResource ThemeForegroundBrush}" />
                     </StackPanel>
                 </StackPanel>
 
@@ -125,21 +125,21 @@
                     <TextBlock Text="开始使用"
                                FontSize="28"
                                FontWeight="Bold"
-                               Foreground="#FF1F1F1F" />
+                               Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <TextBlock Text="基本设置已完成，桌面上即将显示你的组件面板。"
                                FontSize="14"
-                               Foreground="#FF5F5F5F"
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                TextWrapping="Wrap" />
 
                     <StackPanel Spacing="8" Margin="0,16,0,0">
                         <TextBlock Text="• 右键点击面板进入编辑模式"
-                                   Foreground="#FF5F5F5F"
+                                   Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                    FontSize="13" />
                         <TextBlock Text="• 编辑模式下可以拖动、添加、删除组件"
-                                   Foreground="#FF5F5F5F"
+                                   Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                    FontSize="13" />
                         <TextBlock Text="• 右键系统托盘图标打开设置或退出"
-                                   Foreground="#FF5F5F5F"
+                                   Foreground="{DynamicResource ThemeSecondaryForegroundBrush}"
                                    FontSize="13" />
                     </StackPanel>
                 </StackPanel>
@@ -147,8 +147,8 @@
 
             <!-- 底部按钮 -->
             <Border Grid.Row="1"
-                    Background="#FFFFFFFF"
-                    BorderBrush="#FFE5E5E5"
+                    Background="{DynamicResource ThemeSidebarBrush}"
+                    BorderBrush="{DynamicResource ThemeDividerBrush}"
                     BorderThickness="0,1,0,0"
                     Padding="32,16"
                     HorizontalAlignment="Stretch">
@@ -159,18 +159,18 @@
                             Content="上一步"
                             Padding="16,6"
                             IsVisible="False"
-                            Background="#FFE5E5E5"
-                            Foreground="#FF1F1F1F" />
+                            Background="{DynamicResource ThemeSurfaceBrush}"
+                            Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <Button x:Name="NextButton"
                             Content="下一步"
                             Padding="16,6"
-                            Background="#FF0078D4"
+                            Background="{DynamicResource ThemeAccentBrush}"
                             Foreground="White" />
                     <Button x:Name="FinishButton"
                             Content="完成"
                             Padding="16,6"
                             IsVisible="False"
-                            Background="#FF0078D4"
+                            Background="{DynamicResource ThemeAccentBrush}"
                             Foreground="White" />
                 </StackPanel>
             </Border>

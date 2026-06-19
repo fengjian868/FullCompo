@@ -19,20 +19,20 @@
                 HorizontalAlignment="Center"
                 VerticalAlignment="Bottom"
                 Margin="0,0,0,24"
-                Background="#F9F9F9"
-                BorderBrush="#E0E0E0"
+                Background="{DynamicResource ThemeSurfaceBrush}"
+                BorderBrush="{DynamicResource ThemeDividerBrush}"
                 BorderThickness="1"
                 CornerRadius="12"
                 Padding="12,8"
                 BoxShadow="0 4px 16px rgba(0,0,0,0.15)">
             <StackPanel Orientation="Horizontal" Spacing="8">
-                <Button x:Name="BtnReset" Content="↺ 重置视图" />
-                <Button x:Name="BtnAppearance" Content="🎨 外观" />
-                <Button x:Name="BtnAdd" Content="➕ 添加组件" />
-                <Button x:Name="BtnClear" Content="🗑 清空桌面" />
-                <Button x:Name="BtnUndo" Content="↩ 撤销" />
-                <Button x:Name="BtnRedo" Content="↪ 重做" />
-                <Button x:Name="BtnDone" Content="✓ 完成" />
+                <Button x:Name="BtnReset" Content="↺ 重置视图" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                <Button x:Name="BtnAppearance" Content="🎨 外观" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                <Button x:Name="BtnAdd" Content="➕ 添加组件" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                <Button x:Name="BtnClear" Content="🗑 清空桌面" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                <Button x:Name="BtnUndo" Content="↩ 撤销" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                <Button x:Name="BtnRedo" Content="↪ 重做" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                <Button x:Name="BtnDone" Content="✓ 完成" Foreground="{DynamicResource ThemeForegroundBrush}" />
             </StackPanel>
         </Border>
         <!-- Side panel for size library / function selection -->
@@ -41,12 +41,17 @@
                 HorizontalAlignment="Right"
                 VerticalAlignment="Stretch"
                 Width="280"
-                Background="#F9F9F9"
-                BorderBrush="#E0E0E0"
+                Background="{DynamicResource ThemeSurfaceBrush}"
+                BorderBrush="{DynamicResource ThemeDividerBrush}"
                 BorderThickness="1,0,0,0"
                 BoxShadow="-4px 0 16px rgba(0,0,0,0.1)">
             <Grid RowDefinitions="Auto,*">
-                <TextBlock x:Name="SidePanelTitle" Grid.Row="0" Margin="16,12" FontSize="16" FontWeight="SemiBold" />
+                <TextBlock x:Name="SidePanelTitle"
+                           Grid.Row="0"
+                           Margin="16,12"
+                           FontSize="16"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource ThemeForegroundBrush}" />
                 <ScrollViewer Grid.Row="1">
                     <StackPanel x:Name="SidePanelContent" Margin="16,0,16,16" Spacing="8" />
                 </ScrollViewer>

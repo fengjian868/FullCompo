@@ -112,14 +112,14 @@ public partial class WidgetWindow : Window
 
         if (isEditMode)
         {
-            border.BorderBrush = new SolidColorBrush(Color.Parse("#80FFFFFF"));
+            border.BorderBrush = GetThemedBrush("ThemeBorderBrush");
             border.BorderThickness = new Thickness(2);
             border.Opacity = 1.0;
             Cursor = new Cursor(StandardCursorType.Hand);
         }
         else
         {
-            border.BorderBrush = new SolidColorBrush(_services.GetRequiredService<IThemeService>().CurrentTheme.BorderColor);
+            border.BorderBrush = GetThemedBrush("ThemeBorderBrush");
             border.BorderThickness = new Thickness(1);
             border.Opacity = _services.GetRequiredService<IThemeService>().CurrentTheme.Opacity;
             Cursor = Cursor.Default;
@@ -273,5 +273,14 @@ public partial class WidgetWindow : Window
         var panelService = _services.GetRequiredService<IPanelService>();
         panelService.RemoveWidget(_config);
         Close();
+    }
+
+    private static IBrush GetThemedBrush(string resourceKey)
+    {
+        if (Application.Current?.TryGetResource(resourceKey, out var resource) == true && resource is IBrush brush)
+        {
+            return brush;
+        }
+        return Brushes.Transparent;
     }
 }

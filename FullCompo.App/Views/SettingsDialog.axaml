@@ -4,9 +4,14 @@
         Title="组件设置"
         Width="320"
         Height="240"
-        WindowStartupLocation="CenterOwner">
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource ThemeSurfaceBrush}">
     <Grid RowDefinitions="Auto,*" Margin="16">
-        <TextBlock x:Name="TitleText" FontSize="18" FontWeight="Bold" Margin="0,0,0,12" />
+        <TextBlock x:Name="TitleText"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Foreground="{DynamicResource ThemeForegroundBrush}"
+                   Margin="0,0,0,12" />
         <ScrollViewer Grid.Row="1">
             <ContentControl x:Name="SettingsContent" />
         </ScrollViewer>

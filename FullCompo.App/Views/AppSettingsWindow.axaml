@@ -9,13 +9,13 @@
     <Grid ColumnDefinitions="160,*">
         <!-- 左侧导航栏 -->
         <Border Grid.Column="0"
-                Background="#FFFFFFFF"
+                Background="{DynamicResource ThemeSidebarBrush}"
                 Padding="16,20">
             <StackPanel Spacing="4">
                 <TextBlock Text="设置"
                            FontSize="18"
                            FontWeight="SemiBold"
-                           Foreground="#FF1F1F1F"
+                           Foreground="{DynamicResource ThemeForegroundBrush}"
                            Margin="0,0,0,20" />
 
                 <ListBox x:Name="NavList"
@@ -32,20 +32,20 @@
         </Border>
 
         <!-- 右侧内容区 -->
-        <Grid Grid.Column="1" RowDefinitions="*,Auto" Background="#FFF3F3F3">
+        <Grid Grid.Column="1" RowDefinitions="*,Auto" Background="{DynamicResource ThemeSurfaceBrush}">
 
             <!-- 常规 -->
             <ScrollViewer x:Name="PageGeneral" Grid.Row="0" Margin="24,20,24,0">
                 <StackPanel Spacing="16">
-                    <TextBlock Text="常规" FontSize="20" FontWeight="Bold" Foreground="#FF1F1F1F" />
+                    <TextBlock Text="常规" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ThemeForegroundBrush}" />
 
                     <StackPanel Spacing="8">
-                        <TextBlock Text="开机自启" Foreground="#FF1F1F1F" FontSize="14" />
+                        <TextBlock Text="开机自启" Foreground="{DynamicResource ThemeForegroundBrush}" FontSize="14" />
                         <ToggleSwitch x:Name="StartupToggle" />
                     </StackPanel>
 
                     <StackPanel Spacing="8">
-                        <TextBlock Text="显示托盘图标" Foreground="#FF1F1F1F" FontSize="14" />
+                        <TextBlock Text="显示托盘图标" Foreground="{DynamicResource ThemeForegroundBrush}" FontSize="14" />
                         <ToggleSwitch x:Name="TrayToggle" />
                     </StackPanel>
                 </StackPanel>
@@ -54,10 +54,10 @@
             <!-- 外观 -->
             <ScrollViewer x:Name="PageAppearance" Grid.Row="0" Margin="24,20,24,0" IsVisible="False">
                 <StackPanel Spacing="16">
-                    <TextBlock Text="外观" FontSize="20" FontWeight="Bold" Foreground="#FF1F1F1F" />
+                    <TextBlock Text="外观" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ThemeForegroundBrush}" />
 
                     <StackPanel Spacing="8">
-                        <TextBlock Text="主题" Foreground="#FF1F1F1F" FontSize="14" />
+                        <TextBlock Text="主题" Foreground="{DynamicResource ThemeForegroundBrush}" FontSize="14" />
                         <ComboBox x:Name="ThemeBox" Width="240" HorizontalAlignment="Left" />
                     </StackPanel>
 
@@ -79,10 +79,10 @@
             <!-- 面板 -->
             <ScrollViewer x:Name="PagePanel" Grid.Row="0" Margin="24,20,24,0" IsVisible="False">
                 <StackPanel Spacing="16">
-                    <TextBlock Text="面板" FontSize="20" FontWeight="Bold" Foreground="#FF1F1F1F" />
+                    <TextBlock Text="面板" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ThemeForegroundBrush}" />
 
                     <StackPanel Spacing="8">
-                        <TextBlock Text="穿透点击（运行时鼠标可穿透面板）" Foreground="#FF1F1F1F" FontSize="14" />
+                        <TextBlock Text="穿透点击（运行时鼠标可穿透面板）" Foreground="{DynamicResource ThemeForegroundBrush}" FontSize="14" />
                         <ToggleSwitch x:Name="ClickThroughToggle" />
                     </StackPanel>
                 </StackPanel>
@@ -91,26 +91,26 @@
             <!-- 关于 -->
             <ScrollViewer x:Name="PageAbout" Grid.Row="0" Margin="24,20,24,0" IsVisible="False">
                 <StackPanel Spacing="12">
-                    <TextBlock Text="关于" FontSize="20" FontWeight="Bold" Foreground="#FF1F1F1F" />
+                    <TextBlock Text="关于" FontSize="20" FontWeight="Bold" Foreground="{DynamicResource ThemeForegroundBrush}" />
 
                     <Image Width="48"
                            Height="48"
                            Source="avares://FullCompo.App/Assets/logo.png"
                            HorizontalAlignment="Left" />
 
-                    <TextBlock Text="FullCompo" FontSize="16" FontWeight="SemiBold" Foreground="#FF1F1F1F" />
-                    <TextBlock Text="版本 1.0.0" Foreground="#FF5F5F5F" FontSize="13" />
+                    <TextBlock Text="FullCompo" FontSize="16" FontWeight="SemiBold" Foreground="{DynamicResource ThemeForegroundBrush}" />
+                    <TextBlock Text="版本 1.0.0" Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" FontSize="13" />
                     <TextBlock Text="在桌面上搭建你的个性化信息面板。"
-                               Foreground="#FF5F5F5F" FontSize="13" TextWrapping="Wrap" />
+                               Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" FontSize="13" TextWrapping="Wrap" />
                     <TextBlock Text="https://github.com/fengjian868/FullCompo"
-                               Foreground="#FF0078D4" FontSize="13" />
+                               Foreground="{DynamicResource ThemeAccentBrush}" FontSize="13" />
                 </StackPanel>
             </ScrollViewer>
 
             <!-- 底部按钮 -->
             <Border Grid.Row="1"
-                    Background="#FFFFFFFF"
-                    BorderBrush="#FFE5E5E5"
+                    Background="{DynamicResource ThemeSidebarBrush}"
+                    BorderBrush="{DynamicResource ThemeDividerBrush}"
                     BorderThickness="0,1,0,0"
                     Padding="24,12"
                     HorizontalAlignment="Stretch">
@@ -120,12 +120,12 @@
                     <Button x:Name="CancelButton"
                             Content="取消"
                             Padding="16,6"
-                            Background="#FFE5E5E5"
-                            Foreground="#FF1F1F1F" />
+                            Background="{DynamicResource ThemeSurfaceBrush}"
+                            Foreground="{DynamicResource ThemeForegroundBrush}" />
                     <Button x:Name="SaveButton"
                             Content="保存"
                             Padding="16,6"
-                            Background="#FF0078D4"
+                            Background="{DynamicResource ThemeAccentBrush}"
                             Foreground="White" />
                 </StackPanel>
             </Border>
