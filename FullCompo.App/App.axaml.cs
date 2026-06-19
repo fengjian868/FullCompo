@@ -40,7 +40,15 @@ public partial class App : Application
 
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
-            desktop.MainWindow = new Window { IsVisible = false };
+            desktop.MainWindow = new Window
+            {
+                Title = "FullCompo",
+                Width = 1,
+                Height = 1,
+                IsVisible = false,
+                ShowInTaskbar = false,
+                WindowState = WindowState.Minimized
+            };
 
             // Apply theme now that Application.Current is available
             try
@@ -71,6 +79,21 @@ public partial class App : Application
             {
                 var logger = _services.GetService<ILogger<App>>();
                 logger?.LogError(ex, "Failed to setup tray icon");
+            }
+
+            try
+            {
+                var configService = _services.GetRequiredService<IConfigService>();
+                if (configService.AppSettings.IsFirstRun)
+                {
+                    var welcomeWindow = new WelcomeWindow(_services);
+                    welcomeWindow.Show();
+                }
+            }
+            catch (Exception ex)
+            {
+                var logger = _services.GetService<ILogger<App>>();
+                logger?.LogError(ex, "Failed to show welcome window");
             }
         }
 

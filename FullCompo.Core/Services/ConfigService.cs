@@ -19,6 +19,8 @@ public class ConfigService : IConfigService
         var settingsPath = Path.Combine(configDir, "settings.json");
         var panelsPath = Path.Combine(configDir, "panels.json");
 
+        var isFirstRun = !File.Exists(settingsPath) && !File.Exists(panelsPath);
+
         try
         {
             AppSettings = File.Exists(settingsPath)
@@ -45,6 +47,8 @@ public class ConfigService : IConfigService
         {
             ResetToDefault();
         }
+
+        AppSettings.IsFirstRun = isFirstRun;
     }
 
     public void Save()

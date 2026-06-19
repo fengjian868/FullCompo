@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="FullCompo.App.Views.WelcomeWindow"
+        Title="欢迎使用 FullCompo"
+        Width="420"
+        Height="320"
+        WindowStartupLocation="CenterScreen"
+        CanResize="False">
+    <Grid RowDefinitions="Auto,*,Auto" Margin="24">
+        <TextBlock Text="欢迎使用 FullCompo" FontSize="22" FontWeight="Bold" Margin="0,0,0,16" />
+
+        <StackPanel Grid.Row="1" Spacing="12">
+            <TextBlock Text="FullCompo 会在桌面显示你的组件面板。" TextWrapping="Wrap" />
+            <TextBlock Text="- 右键点击面板可进入编辑模式" TextWrapping="Wrap" />
+            <TextBlock Text="- 编辑模式下可以拖动、添加、删除组件" TextWrapping="Wrap" />
+            <TextBlock Text="- 右键系统托盘图标可打开设置或退出" TextWrapping="Wrap" />
+
+            <CheckBox x:Name="StartupCheckBox" Content="开机自动启动 FullCompo" Margin="0,8,0,0" />
+        </StackPanel>
+
+        <Button Grid.Row="2"
+                x:Name="StartButton"
+                Content="开始体验"
+                HorizontalAlignment="Right"
+                Padding="16,8" />
+    </Grid>
+</Window>

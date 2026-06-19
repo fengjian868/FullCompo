@@ -37,7 +37,11 @@ public partial class PanelWindow : Window
         InitializeComponent();
         SetupContextMenu();
         ReloadLayout();
-        UpdatePosition();
+
+        Opened += (_, _) =>
+        {
+            UpdatePosition();
+        };
     }
 
     private void InitializeComponent()
