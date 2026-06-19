@@ -3,11 +3,14 @@
         x:Class="FullCompo.App.Views.DesktopSurfaceWindow"
         Title="FullCompo"
         SystemDecorations="None"
-        TransparencyLevelHint="Transparent"
+        TransparencyLevelHint="AcrylicBlur"
         Background="Transparent"
         Topmost="True"
         ShowInTaskbar="False"
-        CanResize="False">
+        CanResize="False"
+        ShowActivated="False"
+        WindowState="FullScreen"
+        FontFamily="{DynamicResource ThemeFontFamily}">
     <Grid x:Name="RootGrid">
         <!-- Edit mode overlay -->
         <Canvas x:Name="EditOverlay" IsVisible="False" Background="#60000000" IsHitTestVisible="True" />

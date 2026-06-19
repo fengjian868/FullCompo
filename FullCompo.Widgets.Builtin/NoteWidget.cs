@@ -37,7 +37,8 @@ public class NoteWidget : WidgetBase
             TextWrapping = TextWrapping.Wrap,
             HorizontalAlignment = HorizontalAlignment.Left,
             VerticalAlignment = VerticalAlignment.Top,
-            FontSize = 14
+            FontSize = 14,
+            Foreground = GetThemeBrush("ThemeForegroundBrush")
         };
 
         return textBlock;

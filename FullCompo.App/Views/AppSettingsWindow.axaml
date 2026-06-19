@@ -2,11 +2,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="FullCompo.App.Views.AppSettingsWindow"
         Title="FullCompo 设置"
-        Width="640"
-        Height="440"
+        Width="900"
+        Height="640"
         WindowStartupLocation="CenterScreen"
-        CanResize="False">
-    <Grid ColumnDefinitions="160,*">
+        Topmost="True"
+        CanResize="False"
+        FontFamily="{DynamicResource ThemeFontFamily}">
+    <Grid ColumnDefinitions="220,*">
         <!-- 左侧导航栏 -->
         <Border Grid.Column="0"
                 Background="{DynamicResource ThemeSidebarBrush}"

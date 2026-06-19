@@ -30,4 +30,8 @@ public class ThemeConfig
     public double FontSizeScale { get; set; } = 1.0;
     public string? FontFamily { get; set; }
     public double Opacity { get; set; } = 0.9;
+
+    // 材质与主题行为
+    public bool UseAcrylic { get; set; } = true;
+    public bool FollowSystem { get; set; }
 }

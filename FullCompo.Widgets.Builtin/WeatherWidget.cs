@@ -30,10 +30,14 @@ public class WeatherWidget : WidgetBase
             Spacing = 4
         };
 
+        var foreground = GetThemeBrush("ThemeForegroundBrush");
+        var secondaryForeground = GetThemeBrush("ThemeSecondaryForegroundBrush");
+
         var iconText = new TextBlock
         {
             HorizontalAlignment = HorizontalAlignment.Center,
             FontSize = 28,
+            Foreground = secondaryForeground,
             Text = "☁️"
         };
 
@@ -42,6 +46,7 @@ public class WeatherWidget : WidgetBase
             HorizontalAlignment = HorizontalAlignment.Center,
             FontSize = 16,
             FontWeight = FontWeight.SemiBold,
+            Foreground = foreground,
             Text = "27°C"
         };
 

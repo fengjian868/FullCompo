@@ -27,4 +27,13 @@ public abstract class WidgetBase : IWidget
     public virtual void OnDeactivated()
     {
     }
+
+    protected static IBrush GetThemeBrush(string resourceKey)
+    {
+        if (Application.Current?.TryGetResource(resourceKey, out var resource) == true && resource is IBrush brush)
+        {
+            return brush;
+        }
+        return Brushes.Transparent;
+    }
 }

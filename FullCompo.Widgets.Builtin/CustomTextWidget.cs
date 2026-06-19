@@ -40,7 +40,8 @@ public class CustomTextWidget : WidgetBase
             FontSize = fontSize,
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
-            TextWrapping = TextWrapping.Wrap
+            TextWrapping = TextWrapping.Wrap,
+            Foreground = GetThemeBrush("ThemeForegroundBrush")
         };
     }
 

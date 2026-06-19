@@ -33,11 +33,15 @@ public class DateWidget : WidgetBase
             Spacing = 4
         };
 
+        var foreground = GetThemeBrush("ThemeForegroundBrush");
+        var secondaryForeground = GetThemeBrush("ThemeSecondaryForegroundBrush");
+
         var dateText = new TextBlock
         {
             HorizontalAlignment = HorizontalAlignment.Center,
             FontSize = context.CurrentSize.Width >= 140 ? 20 : 14,
             FontWeight = FontWeight.SemiBold,
+            Foreground = foreground,
             Text = DateTime.Now.ToString("MM/dd")
         };
 
@@ -45,6 +49,7 @@ public class DateWidget : WidgetBase
         {
             HorizontalAlignment = HorizontalAlignment.Center,
             FontSize = context.CurrentSize.Width >= 140 ? 14 : 11,
+            Foreground = secondaryForeground,
             Text = DateTime.Now.ToString("ddd")
         };
 

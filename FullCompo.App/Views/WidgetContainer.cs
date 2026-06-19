@@ -53,6 +53,8 @@ public class WidgetContainer : Border
         BuildContainer();
         ApplySize();
         LoadWidget();
+
+        _themeService.ThemeChanged += (_, _) => ApplyThemeColors();
     }
 
     private void BuildContainer()
@@ -71,9 +73,9 @@ public class WidgetContainer : Border
             {
                 OffsetX = 0,
                 OffsetY = 4,
-                Blur = 12,
+                Blur = 16,
                 Spread = 0,
-                Color = Color.Parse("#26000000")
+                Color = Color.Parse("#33000000")
             })
         };
 
@@ -215,6 +217,26 @@ public class WidgetContainer : Border
         if (Parent is not Canvas canvas) return;
         Config.PosX = Canvas.GetLeft(this);
         Config.PosY = Canvas.GetTop(this);
+    }
+
+    private void ApplyThemeColors()
+    {
+        try
+        {
+            _contentBorder.Background = GetThemedBrush("ThemeBackgroundBrush");
+            _contentBorder.BorderBrush = _isSelected && _isEditMode
+                ? GetThemedBrush("ThemeAccentBrush")
+                : GetThemedBrush("ThemeBorderBrush");
+            _label.Foreground = GetThemedBrush("ThemeForegroundBrush");
+
+            // Ask the widget to recreate its view so it picks up the new theme brushes
+            LoadWidget();
+        }
+        catch (Exception ex)
+        {
+            var logger = _services.GetService<Microsoft.Extensions.Logging.ILogger<WidgetContainer>>();
+            logger?.LogError(ex, "Failed to apply theme colors");
+        }
     }
 
     private void OnPointerPressed(object? sender, PointerPressedEventArgs e)

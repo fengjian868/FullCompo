@@ -6,7 +6,8 @@
         Height="480"
         WindowStartupLocation="CenterScreen"
         Topmost="True"
-        CanResize="False">
+        CanResize="False"
+        FontFamily="{DynamicResource ThemeFontFamily}">
     <Grid ColumnDefinitions="180,*">
         <!-- 左侧导航栏 -->
         <Border Grid.Column="0"
