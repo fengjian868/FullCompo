@@ -46,14 +46,22 @@ jobs:
             --runtime ${{ matrix.rid }} `
             --channel ${{ matrix.rid }}
 
-      - name: Upload release artifacts
+      - name: Extract portable zip for upload
+        shell: pwsh
+        run: |
+          $portableZip = Get-ChildItem ./releases/${{ matrix.rid }}/*-Portable.zip | Select-Object -First 1
+          if ($portableZip) {
+            $dest = "./portable/${{ matrix.rid }}"
+            New-Item -ItemType Directory -Force -Path $dest
+            Expand-Archive -Path $portableZip.FullName -DestinationPath $dest -Force
+            Write-Host "Extracted portable zip to $dest"
+            Get-ChildItem $dest -Recurse | ForEach-Object { Write-Host $_.FullName }
+          } else {
+            Write-Error "Portable zip not found!"
+          }
+
+      - name: Upload portable (ClassIsland-style structure)
         uses: actions/upload-artifact@v4
         with:
           name: FullCompo-${{ matrix.rid }}
-          path: ./releases/${{ matrix.rid }}/*
-
-      - name: Upload portable zip
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-${{ matrix.rid }}-Portable
-          path: ./releases/${{ matrix.rid }}/*-Portable.zip
+          path: ./portable/${{ matrix.rid }}/*
