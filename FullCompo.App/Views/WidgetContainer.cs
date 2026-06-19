@@ -64,11 +64,11 @@ public class WidgetContainer : Border
         // Content area
         _contentBorder = new Border
         {
-            Background = GetThemedBrush("ThemeBackgroundBrush"),
-            BorderBrush = GetThemedBrush("ThemeBorderBrush"),
+            Background = Widget.HasCustomBackground ? Brushes.Transparent : GetThemedBrush("ThemeBackgroundBrush"),
+            BorderBrush = Widget.HasCustomBackground ? Brushes.Transparent : GetThemedBrush("ThemeBorderBrush"),
             BorderThickness = new Thickness(1),
-            CornerRadius = CurrentSize.IsCircular ? new CornerRadius(CurrentSize.Width / 2) : new CornerRadius(18),
-            Padding = new Thickness(8),
+            CornerRadius = CurrentSize.IsCircular ? new CornerRadius(CurrentSize.Width / 2) : new CornerRadius(Widget.HasCustomBackground ? 20 : 18),
+            Padding = Widget.HasCustomBackground ? new Thickness(0) : new Thickness(8),
             BoxShadow = new BoxShadows(new BoxShadow
             {
                 OffsetX = 0,
@@ -223,10 +223,14 @@ public class WidgetContainer : Border
     {
         try
         {
-            _contentBorder.Background = GetThemedBrush("ThemeBackgroundBrush");
-            _contentBorder.BorderBrush = _isSelected && _isEditMode
-                ? GetThemedBrush("ThemeAccentBrush")
-                : GetThemedBrush("ThemeBorderBrush");
+            _contentBorder.Background = Widget.HasCustomBackground
+                ? Brushes.Transparent
+                : GetThemedBrush("ThemeBackgroundBrush");
+            _contentBorder.BorderBrush = Widget.HasCustomBackground
+                ? Brushes.Transparent
+                : (_isSelected && _isEditMode
+                    ? GetThemedBrush("ThemeAccentBrush")
+                    : GetThemedBrush("ThemeBorderBrush"));
             _label.Foreground = GetThemedBrush("ThemeForegroundBrush");
 
             // Ask the widget to recreate its view so it picks up the new theme brushes

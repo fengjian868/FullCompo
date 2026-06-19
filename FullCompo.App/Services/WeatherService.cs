@@ -160,6 +160,28 @@ public class WeatherService : IHostedService, IWeatherService
                 info.Current.WeatherText = GetWeatherText(info.Current.WeatherCode);
                 info.Current.Temperature.Value = current.GetProperty("temperature").GetProperty("value").GetDouble();
                 info.Current.Temperature.Unit = current.GetProperty("temperature").GetProperty("unit").GetString() ?? "°C";
+
+                if (current.TryGetProperty("humidity", out var humidity))
+                    info.Current.Humidity = humidity.GetProperty("value").GetInt32();
+
+                if (current.TryGetProperty("wind", out var wind))
+                {
+                    info.Current.WindDirection = wind.TryGetProperty("direction", out var dir) ? dir.GetProperty("description").GetString() : null;
+                    info.Current.WindLevel = wind.TryGetProperty("level", out var level) ? level.GetInt32() : null;
+                }
+
+                if (current.TryGetProperty("aqi", out var currentAqi))
+                {
+                    info.Current.Aqi = currentAqi.GetProperty("value").GetInt32();
+                    info.Current.AqiLevel = currentAqi.GetProperty("level").GetString();
+                }
+
+                if (current.TryGetProperty("precipitation", out var precip) &&
+                    precip.TryGetProperty("nearest", out var nearest) &&
+                    nearest.TryGetProperty("distance", out var distance))
+                {
+                    info.Current.PrecipitationDistanceKm = distance.GetInt32();
+                }
             }
 
             if (data.TryGetProperty("forecastDaily", out var forecastDaily) &&

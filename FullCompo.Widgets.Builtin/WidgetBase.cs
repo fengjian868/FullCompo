@@ -28,6 +28,12 @@ public abstract class WidgetBase : IWidget
     {
     }
 
+    /// <summary>
+    /// When true, the WidgetContainer will not render its default theme background,
+    /// allowing the widget to provide its own full background (e.g. Microsoft-style cards).
+    /// </summary>
+    public virtual bool HasCustomBackground => false;
+
     protected static IBrush GetThemeBrush(string resourceKey)
     {
         if (Application.Current?.TryGetResource(resourceKey, out var resource) == true && resource is IBrush brush)

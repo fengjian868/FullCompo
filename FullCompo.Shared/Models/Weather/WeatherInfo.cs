@@ -15,6 +15,12 @@ public class CurrentWeather
     public int WeatherCode { get; set; } = 99;
     public string WeatherText { get; set; } = "未知";
     public TemperatureValue Temperature { get; set; } = new();
+    public int Humidity { get; set; }
+    public int? PrecipitationDistanceKm { get; set; }
+    public string? WindDirection { get; set; }
+    public int? WindLevel { get; set; }
+    public int? Aqi { get; set; }
+    public string? AqiLevel { get; set; }
 }
 
 public class TemperatureValue
