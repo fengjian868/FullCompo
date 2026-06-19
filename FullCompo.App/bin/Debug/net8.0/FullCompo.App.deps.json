@@ -14,7 +14,6 @@
           "Avalonia.Fonts.Inter": "11.2.6",
           "FluentAvaloniaUI": "2.4.1",
           "FullCompo.Core": "1.0.0",
-          "FullCompo.PluginSdk": "0.1.0",
           "FullCompo.Shared": "1.0.0",
           "FullCompo.Widgets.Builtin": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -839,18 +838,6 @@
           }
         }
       },
-      "FullCompo.PluginSdk/0.1.0": {
-        "dependencies": {
-          "FullCompo.Core": "1.0.0",
-          "FullCompo.Shared": "1.0.0"
-        },
-        "runtime": {
-          "FullCompo.PluginSdk.dll": {
-            "assemblyVersion": "0.1.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "FullCompo.Shared/1.0.0": {
         "runtime": {
           "FullCompo.Shared.dll": {
@@ -1302,11 +1289,6 @@
       "hashPath": "tmds.dbus.protocol.0.20.0.nupkg.sha512"
     },
     "FullCompo.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FullCompo.PluginSdk/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

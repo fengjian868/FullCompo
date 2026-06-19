@@ -40,15 +40,37 @@ public partial class App : Application
 
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
-            desktop.ShutdownMode = ShutdownMode.OnExplicitShutdown;
-            _panelService.CreateOrUpdatePanels();
+            desktop.MainWindow = new Window { IsVisible = false };
+
+            // Apply theme now that Application.Current is available
+            try
+            {
+                var configService = _services.GetRequiredService<IConfigService>();
+                _themeService.ApplyTheme(configService.AppSettings.ThemeId);
+            }
+            catch (Exception ex)
+            {
+                var logger = _services.GetService<ILogger<App>>();
+                logger?.LogError(ex, "Failed to apply theme");
+            }
+
+            try
+            {
+                _panelService.CreateOrUpdatePanels();
+            }
+            catch (Exception ex)
+            {
+                var logger = _services.GetService<ILogger<App>>();
+                logger?.LogError(ex, "Failed to create panels");
+            }
             try
             {
                 SetupTrayIcon();
             }
             catch (Exception ex)
             {
-                _services.GetRequiredService<ILogger<App>>().LogWarning(ex, "Failed to setup tray icon");
+                var logger = _services.GetService<ILogger<App>>();
+                logger?.LogError(ex, "Failed to setup tray icon");
             }
         }
 

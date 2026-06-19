@@ -2,194 +2,66 @@ name: Build
 
 on:
   push:
-    branches: [main, master, dev]
+    branches: [main, master]
   pull_request:
-    branches: [main, master, dev]
+    branches: [main, master]
   workflow_dispatch:
 
-env:
-  DOTNET_VERSION: '8.0.x'
-
 jobs:
-  build-windows-x64:
+  build:
     runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        rid: [win-x64, win-x86, win-arm64]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
+          dotnet-version: '8.0.x'
+
+      - name: Install Velopack CLI
+        run: dotnet tool install -g vpk --version 1.0.1
 
       - name: Restore
         run: dotnet restore FullCompo.sln
 
-      - name: Build
-        run: dotnet build FullCompo.sln --configuration Release --no-restore
-
       - name: Publish
-        run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r win-x64 --self-contained true -o ./publish/win-x64
+        run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r ${{ matrix.rid }} --self-contained true -o ./publish/${{ matrix.rid }}
 
-      - name: Package
+      - name: Pack with Velopack
         shell: pwsh
-        run: Compress-Archive -Path "./publish/win-x64\*" -DestinationPath "./publish/FullCompo-win-x64.zip" -Force
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-win-x64
-          path: ./publish/win-x64
-
-      - name: Upload ZIP
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-win-x64-zip
-          path: ./publish/FullCompo-win-x64.zip
-
-  build-windows-x86:
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      - name: Restore
-        run: dotnet restore FullCompo.sln
-
-      - name: Build
-        run: dotnet build FullCompo.sln --configuration Release --no-restore
-
-      - name: Publish
-        run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r win-x86 --self-contained true -o ./publish/win-x86
-
-      - name: Package
-        shell: pwsh
-        run: Compress-Archive -Path "./publish/win-x86\*" -DestinationPath "./publish/FullCompo-win-x86.zip" -Force
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-win-x86
-          path: ./publish/win-x86
-
-      - name: Upload ZIP
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-win-x86-zip
-          path: ./publish/FullCompo-win-x86.zip
-
-  build-windows-arm64:
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      - name: Restore
-        run: dotnet restore FullCompo.sln
-
-      - name: Build
-        run: dotnet build FullCompo.sln --configuration Release --no-restore
-
-      - name: Publish
-        run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r win-arm64 --self-contained true -o ./publish/win-arm64
-
-      - name: Package
-        shell: pwsh
-        run: Compress-Archive -Path "./publish/win-arm64\*" -DestinationPath "./publish/FullCompo-win-arm64.zip" -Force
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-win-arm64
-          path: ./publish/win-arm64
-
-      - name: Upload ZIP
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-win-arm64-zip
-          path: ./publish/FullCompo-win-arm64.zip
-
-  build-linux:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      - name: Restore
-        run: dotnet restore FullCompo.sln
-
-      - name: Build
-        run: dotnet build FullCompo.sln --configuration Release --no-restore
-
-      - name: Publish
-        run: dotnet publish FullCompo.App/FullCompo.App.csproj -c Release -r linux-x64 --self-contained true -o ./publish/linux-x64
-
-      - name: Package
         run: |
-          cd ./publish/linux-x64
-          chmod +x FullCompo.App 2>/dev/null || true
-          tar -czf ../FullCompo-linux-x64.tar.gz *
-          cd ../..
+          $version = "1.0.${{ github.run_number }}"
+          vpk pack `
+            --packId FullCompo `
+            --packVersion $version `
+            --packDir ./publish/${{ matrix.rid }} `
+            --mainExe FullCompo.exe `
+            --outputDir ./releases/${{ matrix.rid }} `
+            --runtime ${{ matrix.rid }} `
+            --channel ${{ matrix.rid }}
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-linux-x64
-          path: ./publish/linux-x64
-
-      - name: Upload TAR.GZ
-        uses: actions/upload-artifact@v4
-        with:
-          name: FullCompo-linux-x64-tar
-          path: ./publish/FullCompo-linux-x64.tar.gz
-
-  summary:
-    needs: [build-windows-x64, build-windows-x86, build-windows-arm64, build-linux]
-    runs-on: ubuntu-latest
-    if: always()
-    steps:
-      - name: Build Summary
+      - name: Extract portable zip for upload
+        shell: pwsh
         run: |
-          echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- Commit: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Run: #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Version: debug-${{ github.sha }}-${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "## Download" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- [Download Artifact](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
-          echo "- [Nightly.link Download](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}) (GhProxy Fastly Mirror / GhProxy Mirror)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Windows" >> $GITHUB_STEP_SUMMARY
-          echo "- [FullCompo-win-x64.zip](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}/FullCompo-win-x64-zip.zip)" >> $GITHUB_STEP_SUMMARY
-          echo "- [FullCompo-win-x86.zip](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}/FullCompo-win-x86-zip.zip)" >> $GITHUB_STEP_SUMMARY
-          echo "- [FullCompo-win-arm64.zip](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}/FullCompo-win-arm64-zip.zip)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Linux" >> $GITHUB_STEP_SUMMARY
-          echo "- [FullCompo-linux-x64.tar.gz](https://nightly.link/${{ github.repository }}/actions/runs/${{ github.run_id }}/FullCompo-linux-x64-tar.zip)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "_Job summary generated at run-time_" >> $GITHUB_STEP_SUMMARY
+          $portableZip = Get-ChildItem ./releases/${{ matrix.rid }}/*-Portable.zip | Select-Object -First 1
+          if ($portableZip) {
+            $dest = "./portable/${{ matrix.rid }}"
+            New-Item -ItemType Directory -Force -Path $dest
+            Expand-Archive -Path $portableZip.FullName -DestinationPath $dest -Force
+            Write-Host "Extracted portable zip to $dest"
+            Get-ChildItem $dest -Recurse | ForEach-Object { Write-Host $_.FullName }
+          } else {
+            Write-Error "Portable zip not found!"
+          }
+
+      - name: Upload portable (ClassIsland-style structure)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FullCompo-${{ matrix.rid }}
+          path: ./portable/${{ matrix.rid }}/*
