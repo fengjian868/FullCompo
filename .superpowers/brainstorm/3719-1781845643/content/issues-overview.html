@@ -1,0 +1,88 @@
+<h2>FullCompo UI 问题诊断</h2>
+<p class="subtitle">审查所有 UI 文件后，发现以下核心问题</p>
+
+<div class="section">
+<h3>问题 1：欢迎页 / 设置页硬编码浅色背景，不跟随主题</h3>
+<p>WelcomeWindow 和 AppSettingsWindow 的左侧导航栏背景 <code>#FFFFFFFF</code>（纯白）、右侧内容区 <code>#FFF3F3F3</code>（浅灰），所有文字颜色 <code>#FF1F1F1F</code>（深黑）——这些全部硬编码，<strong>完全无视用户选择的主题</strong>。当用户选择深色/毛玻璃主题时，这些窗口仍然是刺眼的白色。</p>
+
+<div class="split">
+  <div class="mockup">
+    <div class="mockup-header">当前：深色主题下欢迎页（问题）</div>
+    <div class="mockup-body" style="display:flex;min-height:260px">
+      <div style="width:140px;background:#fff;padding:12px;color:#1f1f1f;font-size:12px;border-right:1px solid #e5e5e5">
+        <div style="font-weight:600;margin-bottom:12px">FullCompo</div>
+        <div style="color:#0078D4;margin-bottom:8px">● 欢迎</div>
+        <div style="color:#8a8a8a;margin-bottom:8px">○ 外观</div>
+        <div style="color:#8a8a8a;margin-bottom:8px">○ 快捷设置</div>
+        <div style="color:#8a8a8a">○ 完成</div>
+      </div>
+      <div style="flex:1;background:#f3f3f3;padding:20px;color:#1f1f1f">
+        <div style="font-size:20px;font-weight:bold;margin-bottom:8px">欢迎使用 FullCompo</div>
+        <div style="font-size:12px;color:#5f5f5f">在桌面上搭建你的个性化信息面板。</div>
+        <div style="margin-top:auto;padding-top:40px;font-size:11px;color:red">⚠ 与深色桌面主题严重冲突</div>
+      </div>
+    </div>
+  </div>
+  <div class="mockup">
+    <div class="mockup-header">期望：深色主题下欢迎页</div>
+    <div class="mockup-body" style="display:flex;min-height:260px">
+      <div style="width:140px;background:#2d2d2d;padding:12px;color:#e0e0e0;font-size:12px;border-right:1px solid #444">
+        <div style="font-weight:600;margin-bottom:12px">FullCompo</div>
+        <div style="color:#4A90E2;margin-bottom:8px">● 欢迎</div>
+        <div style="color:#888;margin-bottom:8px">○ 外观</div>
+        <div style="color:#888;margin-bottom:8px">○ 快捷设置</div>
+        <div style="color:#888">○ 完成</div>
+      </div>
+      <div style="flex:1;background:#1e1e1e;padding:20px;color:#e0e0e0">
+        <div style="font-size:20px;font-weight:bold;margin-bottom:8px">欢迎使用 FullCompo</div>
+        <div style="font-size:12px;color:#aaa">在桌面上搭建你的个性化信息面板。</div>
+        <div style="margin-top:auto;padding-top:40px;font-size:11px;color:#4A90E2">✓ 与深色桌面主题协调</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="section" style="margin-top:32px">
+<h3>问题 2：主题颜色体系不完整</h3>
+<p>ThemeConfig 只定义了 7 个颜色/数值属性，缺少大量 UI 需要的语义色：</p>
+<ul style="line-height:2">
+  <li>❌ 没有 <code>SurfaceColor</code>（卡片/面板背景）</li>
+  <li>❌ 没有 <code>SidebarColor</code>（侧边栏背景）</li>
+  <li>❌ 没有 <code>SecondaryForegroundColor</code>（次要文字）</li>
+  <li>❌ 没有 <code>DisabledForegroundColor</code>（禁用文字）</li>
+  <li>❌ 没有 <code>DividerColor</code>（分割线）</li>
+  <li>❌ 没有 <code>HoverColor</code>（悬停态）</li>
+  <li>❌ 没有 <code>SelectionColor</code>（选中态）</li>
+  <li>❌ 没有 <code>ErrorColor</code> / <code>SuccessColor</code>（反馈色）</li>
+</ul>
+<p>结果：所有窗口只能硬编码颜色，无法统一跟随主题。</p>
+</div>
+
+<div class="section" style="margin-top:32px">
+<h3>问题 3：Avalonia UI 特性利用不足</h3>
+<ul style="line-height:2">
+  <li>❌ 没有使用 <code>DynamicResource</code> 绑定主题色 — XAML 中全部硬编码 <code>#FFxxxxxx</code></li>
+  <li>❌ 没有使用 <code>Styles</code> 统一控件样式 — 每个窗口/控件单独设置属性</li>
+  <li>❌ 没有使用 Avalonia 的 <code>ResourceDictionary</code> 管理语义色</li>
+  <li>❌ WidgetContainer 完全用 C# 代码构建 UI，没有用 XAML + Binding</li>
+  <li>❌ 没有使用 <code>ControlTheme</code>（Avalonia 11 推荐方式）统一样式</li>
+  <li>❌ 没有利用 FluentAvaloniaTheme 的 <code>CustomThemeToUse</code> 或资源覆盖</li>
+</ul>
+</div>
+
+<div class="section" style="margin-top:32px">
+<h3>问题 4：Widget 尺寸体系不一致</h3>
+<p>DesktopSurfaceWindow.GetAllSizes() 定义了 11 种尺寸（mini-bar, small-vbar 等），但各 Widget 的 SupportedSizes 使用的是另一套 ID（1x1, 2x1, 2x2, medium-hbar 等），两套体系完全对不上，导致编辑模式"添加组件"后"选择功能"时匹配不到可用 Widget。</p>
+</div>
+
+<div class="section" style="margin-top:32px">
+<h3>问题 5：其他零散问题</h3>
+<ul style="line-height:2">
+  <li>⚠ WelcomeWindow 步骤指示器用 <code>new SolidColorBrush(Color.Parse(...))</code> 每次创建新对象，应复用</li>
+  <li>⚠ SettingsDialog 没有背景/边框样式，看起来很原始</li>
+  <li>⚠ App.axaml 中 <code>RequestedThemeVariant="Dark"</code> 硬编码，与主题系统冲突</li>
+  <li>⚠ PluginSdk/Class1.cs 是空占位文件</li>
+  <li>⚠ WidgetContainer 的错误提示 "加载失败" 文字颜色不可见（没有设置 Foreground）</li>
+</ul>
+</div>
