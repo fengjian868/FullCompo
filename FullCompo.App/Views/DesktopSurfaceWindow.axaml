@@ -1,0 +1,56 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="FullCompo.App.Views.DesktopSurfaceWindow"
+        Title="FullCompo"
+        SystemDecorations="None"
+        TransparencyLevelHint="Transparent"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        CanResize="False">
+    <Grid x:Name="RootGrid">
+        <!-- Edit mode overlay -->
+        <Canvas x:Name="EditOverlay" IsVisible="False" Background="#60000000" IsHitTestVisible="True" />
+        <!-- Widgets canvas -->
+        <Canvas x:Name="WidgetsCanvas" Background="Transparent" IsHitTestVisible="True" />
+        <!-- Edit toolbar -->
+        <Border x:Name="EditToolbar"
+                IsVisible="False"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Margin="0,0,0,24"
+                Background="#F9F9F9"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                CornerRadius="12"
+                Padding="12,8"
+                BoxShadow="0 4px 16px rgba(0,0,0,0.15)">
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Button x:Name="BtnReset" Content="↺ 重置视图" />
+                <Button x:Name="BtnAppearance" Content="🎨 外观" />
+                <Button x:Name="BtnAdd" Content="➕ 添加组件" />
+                <Button x:Name="BtnClear" Content="🗑 清空桌面" />
+                <Button x:Name="BtnUndo" Content="↩ 撤销" />
+                <Button x:Name="BtnRedo" Content="↪ 重做" />
+                <Button x:Name="BtnDone" Content="✓ 完成" />
+            </StackPanel>
+        </Border>
+        <!-- Side panel for size library / function selection -->
+        <Border x:Name="SidePanel"
+                IsVisible="False"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Stretch"
+                Width="280"
+                Background="#F9F9F9"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1,0,0,0"
+                BoxShadow="-4px 0 16px rgba(0,0,0,0.1)">
+            <Grid RowDefinitions="Auto,*">
+                <TextBlock x:Name="SidePanelTitle" Grid.Row="0" Margin="16,12" FontSize="16" FontWeight="SemiBold" />
+                <ScrollViewer Grid.Row="1">
+                    <StackPanel x:Name="SidePanelContent" Margin="16,0,16,16" Spacing="8" />
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -66,6 +66,18 @@ public class ConfigService : IConfigService
     public void ResetToDefault()
     {
         AppSettings = new AppSettings();
+
+        // 默认布局放在屏幕右上角（以 1920×1080 为参考，留出 16px 边距）
+        const double screenRight = 1920 - 16;
+        const double rightColWidth = 140; // medium-square
+        const double leftColWidth = 200;  // medium-hbar
+        const double gap = 8;
+        const double top = 16;
+        const double rowHeight = 140;
+
+        var rightColX = screenRight - rightColWidth;
+        var leftColX = rightColX - gap - leftColWidth;
+
         Panels = new List<PanelConfig>
         {
             new()
@@ -73,11 +85,10 @@ public class ConfigService : IConfigService
                 Name = "默认面板",
                 Widgets = new List<WidgetInstanceConfig>
                 {
-                    new() { WidgetId = "builtin.date", SizeId = "1x1", PosX = 16, PosY = 16 },
-                    new() { WidgetId = "builtin.clock", SizeId = "2x1", PosX = 144, PosY = 16 },
-                    new() { WidgetId = "builtin.weather", SizeId = "1x1", PosX = 400, PosY = 16 },
-                    new() { WidgetId = "builtin.search", SizeId = "2x1", PosX = 16, PosY = 144 },
-                    new() { WidgetId = "builtin.launcher", SizeId = "1x1", PosX = 272, PosY = 144 }
+                    new() { WidgetId = "builtin.date", SizeId = "medium-hbar", PosX = leftColX, PosY = top },
+                    new() { WidgetId = "builtin.clock", SizeId = "medium-square", PosX = rightColX, PosY = top },
+                    new() { WidgetId = "builtin.weather", SizeId = "medium-hbar", PosX = leftColX, PosY = top + rowHeight + gap },
+                    new() { WidgetId = "builtin.search", SizeId = "medium-hbar", PosX = rightColX, PosY = top + rowHeight + gap }
                 }
             }
         };
