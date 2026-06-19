@@ -133,18 +133,18 @@ public partial class WelcomeWindow : Window
 
             if (i + 1 == _currentStep)
             {
-                ellipse.Fill = new SolidColorBrush(Color.Parse("#FF4A90E2"));
-                text.Foreground = Brushes.White;
+                ellipse.Fill = new SolidColorBrush(Color.Parse("#FF0078D4"));
+                text.Foreground = new SolidColorBrush(Color.Parse("#FF1F1F1F"));
             }
             else if (i + 1 < _currentStep)
             {
-                ellipse.Fill = new SolidColorBrush(Color.Parse("#FF4A90E2"));
-                text.Foreground = new SolidColorBrush(Color.Parse("#CCFFFFFF"));
+                ellipse.Fill = new SolidColorBrush(Color.Parse("#FF0078D4"));
+                text.Foreground = new SolidColorBrush(Color.Parse("#FF5F5F5F"));
             }
             else
             {
-                ellipse.Fill = new SolidColorBrush(Color.Parse("#55FFFFFF"));
-                text.Foreground = new SolidColorBrush(Color.Parse("#AAFFFFFF"));
+                ellipse.Fill = new SolidColorBrush(Color.Parse("#FFC4C4C4"));
+                text.Foreground = new SolidColorBrush(Color.Parse("#FF8A8A8A"));
             }
         }
 
