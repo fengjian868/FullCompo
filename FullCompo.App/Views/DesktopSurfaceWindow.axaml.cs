@@ -29,6 +29,7 @@ public partial class DesktopSurfaceWindow : Window
 
     private bool _isEditMode;
     private WidgetContainer? _selectedContainer;
+    private bool _isDragging;
 
     private const double GridSize = 80.0;
     private const double SnapThreshold = 20.0;
