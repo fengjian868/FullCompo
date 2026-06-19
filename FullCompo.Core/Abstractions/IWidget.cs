@@ -12,6 +12,7 @@ public interface IWidget
     string Description { get; }
     IImage? Icon { get; }
     IEnumerable<WidgetSize> SupportedSizes { get; }
+    bool HasCustomBackground { get; }
 
     Control CreateView(WidgetContext context);
     Control? CreateSettingsView(WidgetSettings settings);

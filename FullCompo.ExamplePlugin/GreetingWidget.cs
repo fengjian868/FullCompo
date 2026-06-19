@@ -16,6 +16,7 @@ public class GreetingWidget : IWidget
     public string Name => "问候语";
     public string Description => "显示自定义问候语";
     public IImage? Icon => null;
+    public bool HasCustomBackground => false;
 
     public IEnumerable<WidgetSize> SupportedSizes => new[]
     {
