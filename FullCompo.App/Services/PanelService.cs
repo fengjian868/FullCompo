@@ -1,5 +1,6 @@
 using Avalonia.Controls;
 using FullCompo.App.Views;
+using FullCompo.Core.Abstractions;
 using FullCompo.Core.Abstractions.Services;
 using FullCompo.Shared.Models;
 
