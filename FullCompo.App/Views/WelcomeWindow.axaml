@@ -2,26 +2,177 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="FullCompo.App.Views.WelcomeWindow"
         Title="欢迎使用 FullCompo"
-        Width="420"
-        Height="320"
+        Width="720"
+        Height="480"
         WindowStartupLocation="CenterScreen"
         CanResize="False">
-    <Grid RowDefinitions="Auto,*,Auto" Margin="24">
-        <TextBlock Text="欢迎使用 FullCompo" FontSize="22" FontWeight="Bold" Margin="0,0,0,16" />
+    <Grid ColumnDefinitions="180,*">
+        <!-- 左侧导航栏 -->
+        <Border Grid.Column="0"
+                Background="#FF1E1E1E"
+                Padding="20,24">
+            <Grid RowDefinitions="Auto,*,Auto">
+                <!-- Logo 和名称 -->
+                <StackPanel Grid.Row="0" Spacing="12">
+                    <Border Width="48"
+                            Height="48"
+                            CornerRadius="10"
+                            Background="#FF4A90E2">
+                        <TextBlock Text="F"
+                                   FontSize="24"
+                                   FontWeight="Bold"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center" />
+                    </Border>
+                    <TextBlock Text="FullCompo"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="White" />
+                    <TextBlock Text="设置向导"
+                               FontSize="12"
+                               Opacity="0.6"
+                               Foreground="White" />
+                </StackPanel>
 
-        <StackPanel Grid.Row="1" Spacing="12">
-            <TextBlock Text="FullCompo 会在桌面显示你的组件面板。" TextWrapping="Wrap" />
-            <TextBlock Text="- 右键点击面板可进入编辑模式" TextWrapping="Wrap" />
-            <TextBlock Text="- 编辑模式下可以拖动、添加、删除组件" TextWrapping="Wrap" />
-            <TextBlock Text="- 右键系统托盘图标可打开设置或退出" TextWrapping="Wrap" />
+                <!-- 步骤导航 -->
+                <StackPanel Grid.Row="1" Margin="0,32,0,0" Spacing="16" x:Name="StepIndicators">
+                    <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step1Indicator">
+                        <Ellipse Width="8" Height="8" Fill="#FF4A90E2" VerticalAlignment="Center" />
+                        <TextBlock Text="欢迎" Foreground="White" FontSize="14" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step2Indicator">
+                        <Ellipse Width="8" Height="8" Fill="#55FFFFFF" VerticalAlignment="Center" />
+                        <TextBlock Text="外观" Foreground="#AAFFFFFF" FontSize="14" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step3Indicator">
+                        <Ellipse Width="8" Height="8" Fill="#55FFFFFF" VerticalAlignment="Center" />
+                        <TextBlock Text="快捷设置" Foreground="#AAFFFFFF" FontSize="14" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="10" x:Name="Step4Indicator">
+                        <Ellipse Width="8" Height="8" Fill="#55FFFFFF" VerticalAlignment="Center" />
+                        <TextBlock Text="完成" Foreground="#AAFFFFFF" FontSize="14" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
 
-            <CheckBox x:Name="StartupCheckBox" Content="开机自动启动 FullCompo" Margin="0,8,0,0" />
-        </StackPanel>
+        <!-- 右侧内容区 -->
+        <Grid Grid.Column="1" RowDefinitions="*,Auto" Background="#FF252525">
+            <!-- 内容区域 -->
+            <Grid Grid.Row="0" Margin="32,28,32,0">
+                <!-- 步骤 1：欢迎 -->
+                <StackPanel x:Name="Step1Content" Spacing="16" VerticalAlignment="Center">
+                    <TextBlock Text="欢迎使用 FullCompo"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="White" />
+                    <TextBlock Text="在桌面上搭建你的个性化信息面板。"
+                               FontSize="14"
+                               Foreground="#CCFFFFFF"
+                               TextWrapping="Wrap" />
+                    <TextBlock Text="首次使用，让我们花一分钟完成基本设置。"
+                               FontSize="14"
+                               Foreground="#CCFFFFFF"
+                               TextWrapping="Wrap" />
+                </StackPanel>
 
-        <Button Grid.Row="2"
-                x:Name="StartButton"
-                Content="开始体验"
-                HorizontalAlignment="Right"
-                Padding="16,8" />
+                <!-- 步骤 2：外观 -->
+                <StackPanel x:Name="Step2Content" Spacing="16" IsVisible="False">
+                    <TextBlock Text="选择外观"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               Foreground="White" />
+                    <TextBlock Text="选择你喜欢的主题风格，可以随时在设置中更改。"
+                               FontSize="13"
+                               Foreground="#AAFFFFFF"
+                               TextWrapping="Wrap" />
+
+                    <ComboBox x:Name="ThemeComboBox"
+                              Width="240"
+                              HorizontalAlignment="Left" />
+
+                    <Border x:Name="ThemePreview"
+                            Width="240"
+                            Height="120"
+                            CornerRadius="12"
+                            BorderThickness="1"
+                            Margin="0,8,0,0">
+                        <TextBlock x:Name="PreviewTextBlock"
+                                   Text="预览"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontSize="16" />
+                    </Border>
+                </StackPanel>
+
+                <!-- 步骤 3：快捷设置 -->
+                <StackPanel x:Name="Step3Content" Spacing="16" IsVisible="False">
+                    <TextBlock Text="快捷设置"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               Foreground="White" />
+                    <TextBlock Text="配置一些常用选项，让 FullCompo 更方便使用。"
+                               FontSize="13"
+                               Foreground="#AAFFFFFF"
+                               TextWrapping="Wrap" />
+
+                    <StackPanel Spacing="12" Margin="0,8,0,0">
+                        <CheckBox x:Name="StartupCheckBox"
+                                  Content="开机自动启动 FullCompo"
+                                  Foreground="White" />
+                        <CheckBox x:Name="ShortcutCheckBox"
+                                  Content="创建桌面快捷方式"
+                                  Foreground="White" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- 步骤 4：完成 -->
+                <StackPanel x:Name="Step4Content" Spacing="16" IsVisible="False" VerticalAlignment="Center">
+                    <TextBlock Text="开始使用"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="White" />
+                    <TextBlock Text="基本设置已完成，桌面上即将显示你的组件面板。"
+                               FontSize="14"
+                               Foreground="#CCFFFFFF"
+                               TextWrapping="Wrap" />
+
+                    <StackPanel Spacing="8" Margin="0,16,0,0">
+                        <TextBlock Text="• 右键点击面板进入编辑模式"
+                                   Foreground="#AAFFFFFF"
+                                   FontSize="13" />
+                        <TextBlock Text="• 编辑模式下可以拖动、添加、删除组件"
+                                   Foreground="#AAFFFFFF"
+                                   FontSize="13" />
+                        <TextBlock Text="• 右键系统托盘图标打开设置或退出"
+                                   Foreground="#AAFFFFFF"
+                                   FontSize="13" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <!-- 底部按钮 -->
+            <Border Grid.Row="1"
+                    Background="#FF2D2D2D"
+                    Padding="32,16"
+                    HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Spacing="12">
+                    <Button x:Name="BackButton"
+                            Content="上一步"
+                            Padding="16,6"
+                            IsVisible="False" />
+                    <Button x:Name="NextButton"
+                            Content="下一步"
+                            Padding="16,6" />
+                    <Button x:Name="FinishButton"
+                            Content="完成"
+                            Padding="16,6"
+                            IsVisible="False" />
+                </StackPanel>
+            </Border>
+        </Grid>
     </Grid>
 </Window>
