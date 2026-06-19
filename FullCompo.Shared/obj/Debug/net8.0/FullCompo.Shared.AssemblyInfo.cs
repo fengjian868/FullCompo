@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullCompo.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e41cb06ab175d95ed92b12c339c67b3d1b62a9ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1a3351a2827cd1a36b1206d29ba6e7ea4a39ed5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullCompo.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullCompo.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

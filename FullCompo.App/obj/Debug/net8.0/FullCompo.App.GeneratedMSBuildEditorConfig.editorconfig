@@ -25,11 +25,14 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/workspace/FullCompo.App/Views/AppSettingsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/workspace/FullCompo.App/Views/PanelSettingsDialog.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[/workspace/FullCompo.App/Views/PanelWindow.axaml]
+[/workspace/FullCompo.App/Views/DesktopSurfaceWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/workspace/FullCompo.App/Views/SettingsDialog.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/workspace/FullCompo.App/Views/WelcomeWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/workspace/FullCompo.App/Views/WidgetWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
