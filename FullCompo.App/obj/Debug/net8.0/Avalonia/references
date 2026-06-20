@@ -61,6 +61,7 @@
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/Microsoft.Win32.Registry.dll
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/mscorlib.dll
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/netstandard.dll
+/root/.nuget/packages/nuget.versioning/6.14.0/lib/netstandard2.0/NuGet.Versioning.dll
 /root/.nuget/packages/skiasharp/2.88.9/lib/net6.0/SkiaSharp.dll
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/System.AppContext.dll
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/System.Buffers.dll
@@ -220,4 +221,5 @@
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/System.Xml.XPath.dll
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/System.Xml.XPath.XDocument.dll
 /root/.nuget/packages/tmds.dbus.protocol/0.20.0/lib/net8.0/Tmds.DBus.Protocol.dll
+/root/.nuget/packages/velopack/0.0.1298/lib/net8.0/Velopack.dll
 /root/.dotnet/packs/Microsoft.NETCore.App.Ref/8.0.28/ref/net8.0/WindowsBase.dll

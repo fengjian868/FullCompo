@@ -22,6 +22,9 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/workspace/FullCompo.App/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/workspace/FullCompo.App/Controls/SettingsCard.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/workspace/FullCompo.App/Views/AppSettingsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
@@ -31,5 +34,20 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/workspace/FullCompo.App/Views/PanelWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/workspace/FullCompo.App/Views/SettingPages/AboutSettingsPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/workspace/FullCompo.App/Views/SettingPages/AppearanceSettingsPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/workspace/FullCompo.App/Views/SettingPages/GeneralSettingsPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/workspace/FullCompo.App/Views/SettingPages/WeatherSettingsPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/workspace/FullCompo.App/Views/SettingsDialog.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/workspace/FullCompo.App/Views/WelcomeWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
