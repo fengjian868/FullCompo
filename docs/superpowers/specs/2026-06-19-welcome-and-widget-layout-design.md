@@ -1,0 +1,90 @@
+# 欢迎页恢复与默认小组件布局设计
+
+日期：2026-06-19
+
+## 目标
+
+1. 恢复并修复首次运行欢迎页（外观选择失效、字体看不清、下一步按钮消失）。
+2. 重新设计默认桌面布局：两个短条在左、一个方形在右。
+3. 实现三种基础组件尺寸预设，尺寸集中在一个文件，方便用户自行修改。
+4. 时钟组件改为现实风格的模拟指针表盘。
+5. 文字/内容在各尺寸内自适应铺满。
+
+## 默认布局
+
+```
+┌─────────────┬─────────────┐
+│ 日期短条    │             │
+│ 周五 06/30  │   模拟时钟   │
+├─────────────┤   方形       │
+│ 天气短条    │             │
+│ ☁ 27°C     │             │
+└─────────────┴─────────────┘
+```
+
+面板总尺寸（可改）：
+- 短条：宽 160，高 70
+- 方形：宽 160，高 160
+- 默认停靠：屏幕右上角（TopRightCorner）
+
+## 尺寸预设
+
+新增 `FullCompo.Core/Models/WidgetSizePresets.cs`，集中管理：
+
+| Id | 名称 | 宽 | 高 | Columns | Rows |
+|---|---|---|---|---|---|
+| short-bar | 短条 | 160 | 70 | 2 | 1 |
+| square | 方形 | 160 | 160 | 2 | 2 |
+| large-square | 大方形 | 220 | 220 | 3 | 3 |
+
+用户之后想改大小，直接改这个文件的 `Width` / `Height` 数值即可。
+
+## 欢迎页
+
+重新创建 `FullCompo.App/Views/WelcomeWindow.axaml`：
+
+- 4 步向导：欢迎 → 外观 → 快捷设置 → 完成。
+- 背景浅灰 `#F5F5F5`，标题深黑 `#1A1A1A`，正文 `#333333`，蓝色强调 `#0078D4`。
+- 外观页使用单选按钮（浅色 / 深色 / 毛玻璃），避免下拉框绑定失效。
+- 底部导航按钮（上一步 / 下一步）始终可见；最后一步“下一步”变为“完成”。
+- 窗口 `Topmost="True"`、`WindowStartupLocation="CenterScreen"`、`CanResize="False"`。
+
+## 内置组件改造
+
+### 日期短条
+
+- 内容：`周五 06/30`
+- 使用 `Viewbox` 包裹 `TextBlock`，文字随短条高度自适应。
+- 文字颜色使用主题前景色 `ThemeForegroundColor`。
+- 背景透明，依赖面板主题背景。
+
+### 天气短条
+
+- 内容：`☁ 27°C`
+- 同样使用 `Viewbox` 自适应。
+- 文字颜色使用主题前景色。
+
+### 时钟方形
+
+- 改为模拟指针表盘：
+  - 外圈圆环。
+  - 数字 1–12 均匀分布。
+  - 时针、分针、秒针，每秒刷新。
+  - 表盘整体随方形尺寸缩放。
+- 使用 `Canvas` + `Ellipse`/`Line`/`TextBlock` 绘制。
+- 不显示数字时间，只显示指针表盘。
+
+## 文件变更
+
+- 新增：`FullCompo.App/Views/WelcomeWindow.axaml` + `.axaml.cs`
+- 新增：`FullCompo.Core/Models/WidgetSizePresets.cs`
+- 修改：`FullCompo.App/App.axaml.cs`（首次运行打开欢迎页）
+- 修改：`FullCompo.Core/Services/ConfigService.cs`（默认布局）
+- 修改：`FullCompo.Widgets.Builtin/DateWidget.cs`
+- 修改：`FullCompo.Widgets.Builtin/WeatherWidget.cs`
+- 修改：`FullCompo.Widgets.Builtin/ClockWidget.cs`
+
+## 兼容性
+
+- 用户首次运行：弹出欢迎页。
+- 删除 `%AppData%\FullCompo\data` 后重新运行，可再次进入首次运行流程。
