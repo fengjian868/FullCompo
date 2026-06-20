@@ -1,5 +1,5 @@
 using Avalonia.Controls;
-using FluentAvalonia.UI.Navigation;
+using FluentAvalonia.UI.Controls;
 using FullCompo.App.ViewModels;
 
 namespace FullCompo.App.Views;
