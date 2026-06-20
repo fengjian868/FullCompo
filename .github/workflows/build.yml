@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -44,24 +46,82 @@ jobs:
             --mainExe FullCompo.exe `
             --outputDir ./releases/${{ matrix.rid }} `
             --runtime ${{ matrix.rid }} `
-            --channel ${{ matrix.rid }}
+            --channel ${{ matrix.rid }} `
+            --icon FullCompo.App/Assets/logo.ico
 
-      - name: Extract portable zip for upload
+      - name: Prepare release zip (ClassIsland-style structure)
         shell: pwsh
         run: |
           $portableZip = Get-ChildItem ./releases/${{ matrix.rid }}/*-Portable.zip | Select-Object -First 1
           if ($portableZip) {
-            $dest = "./portable/${{ matrix.rid }}"
+            $dest = "./dist/FullCompo-${{ matrix.rid }}"
             New-Item -ItemType Directory -Force -Path $dest
             Expand-Archive -Path $portableZip.FullName -DestinationPath $dest -Force
             Write-Host "Extracted portable zip to $dest"
             Get-ChildItem $dest -Recurse | ForEach-Object { Write-Host $_.FullName }
+            $zipPath = "./dist/FullCompo-${{ matrix.rid }}.zip"
+            Compress-Archive -Path "$dest\*" -DestinationPath $zipPath -Force
+            Write-Host "Created release zip: $zipPath"
           } else {
             Write-Error "Portable zip not found!"
           }
 
-      - name: Upload portable (ClassIsland-style structure)
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: FullCompo-${{ matrix.rid }}
-          path: ./portable/${{ matrix.rid }}/*
+          path: ./dist/FullCompo-${{ matrix.rid }}.zip
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          tag_name: nightly
+          name: Nightly Build
+          draft: false
+          prerelease: true
+          files: ./dist/FullCompo-${{ matrix.rid }}.zip
+          body: |
+            Automated nightly build from commit ${{ github.sha }}.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Write job summary
+        shell: pwsh
+        run: |
+          $assetName = "FullCompo-${{ matrix.rid }}.zip"
+          $downloadUrl = "https://github.com/${{ github.repository }}/releases/download/nightly/$assetName"
+          "## build (${{ matrix.rid }}) summary" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
+          "" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
+          "- [$assetName]($downloadUrl)" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append
+
+  summary:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build summary
+        shell: pwsh
+        run: |
+          $repo = "${{ github.repository }}"
+          $commit = "${{ github.sha }}"
+          $runId = "${{ github.run_id }}"
+          $branch = "${{ github.ref_name }}"
+          $summary = @"
+          # Build Summary
+
+          - Commit: $commit
+          - Run: #$runId
+          - Version: nightly
+
+          ## Download
+
+          - [Download Artifact](https://github.com/$repo/actions/runs/$runId)
+          - [Nightly.link Download](https://nightly.link/$repo/workflows/build/$branch)
+
+          ## Windows
+
+          - [FullCompo-win-x64.zip](https://github.com/$repo/releases/download/nightly/FullCompo-win-x64.zip)
+          - [FullCompo-win-x86.zip](https://github.com/$repo/releases/download/nightly/FullCompo-win-x86.zip)
+          - [FullCompo-win-arm64.zip](https://github.com/$repo/releases/download/nightly/FullCompo-win-arm64.zip)
+          "@
+          $summary | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Encoding utf8
