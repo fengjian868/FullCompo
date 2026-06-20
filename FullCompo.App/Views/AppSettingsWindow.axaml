@@ -60,7 +60,7 @@
                 </ui:NavigationViewItem>
                 <ui:NavigationViewItem Tag="Appearance" Content="外观">
                     <ui:NavigationViewItem.IconSource>
-                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Palette}" />
+                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.FontColor}" />
                     </ui:NavigationViewItem.IconSource>
                 </ui:NavigationViewItem>
                 <ui:NavigationViewItem Tag="Weather" Content="天气">
@@ -70,7 +70,7 @@
                 </ui:NavigationViewItem>
                 <ui:NavigationViewItem Tag="About" Content="关于">
                     <ui:NavigationViewItem.IconSource>
-                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Info}" />
+                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Help}" />
                     </ui:NavigationViewItem.IconSource>
                 </ui:NavigationViewItem>
             </ui:NavigationView.MenuItems>
