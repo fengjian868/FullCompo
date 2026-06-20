@@ -15,7 +15,7 @@
 
             <controls:SettingsCard Header="语言" Description="应用界面显示语言">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="Globe" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.Globe}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
                     <ComboBox Width="160"
@@ -26,34 +26,34 @@
 
             <controls:SettingsCard Header="开机自启" Description="登录系统后自动启动应用">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="PowerButton" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.PowerButton}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
-                    <ui:ToggleSwitch IsChecked="{Binding Settings.RunOnStartup}" />
+                    <ToggleSwitch IsChecked="{Binding Settings.RunOnStartup}" />
                 </controls:SettingsCard.ActionContent>
             </controls:SettingsCard>
 
             <controls:SettingsCard Header="显示托盘图标" Description="在系统托盘显示应用图标">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="View" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.View}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
-                    <ui:ToggleSwitch IsChecked="{Binding Settings.ShowTrayIcon}" />
+                    <ToggleSwitch IsChecked="{Binding Settings.ShowTrayIcon}" />
                 </controls:SettingsCard.ActionContent>
             </controls:SettingsCard>
 
             <controls:SettingsCard Header="穿透点击" Description="运行时鼠标可穿透面板组件">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="TouchPointer" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.TouchPointer}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
-                    <ui:ToggleSwitch IsChecked="{Binding Settings.ClickThrough}" />
+                    <ToggleSwitch IsChecked="{Binding Settings.ClickThrough}" />
                 </controls:SettingsCard.ActionContent>
             </controls:SettingsCard>
 
             <controls:SettingsCard Header="编辑模式快捷键" Description="进入/退出编辑模式的快捷键">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="Keyboard" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.Keyboard}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
                     <TextBox Width="200"

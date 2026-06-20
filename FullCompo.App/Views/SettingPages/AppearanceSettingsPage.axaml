@@ -15,7 +15,7 @@
 
             <controls:SettingsCard Header="主题" Description="应用整体配色风格">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="Color" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.Color}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
                     <ComboBox Width="160"
@@ -27,7 +27,7 @@
 
             <controls:SettingsCard Header="组件间距" Description="面板组件之间的间距">
                 <controls:SettingsCard.HeaderIcon>
-                    <ui:SymbolIcon Symbol="Resize" />
+                    <ui:SymbolIcon Symbol="{x:Static ui:Symbol.Resize}" />
                 </controls:SettingsCard.HeaderIcon>
                 <controls:SettingsCard.ActionContent>
                     <StackPanel Orientation="Horizontal" Spacing="12">

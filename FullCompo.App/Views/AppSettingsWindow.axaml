@@ -1,7 +1,9 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:ui="using:FluentAvalonia.UI.Controls"
+        xmlns:vm="using:FullCompo.App.ViewModels"
         x:Class="FullCompo.App.Views.AppSettingsWindow"
+        x:DataType="vm:AppSettingsWindowViewModel"
         Title="应用设置"
         Width="900"
         Height="640"
@@ -9,12 +11,10 @@
         MinHeight="480"
         WindowStartupLocation="CenterScreen"
         ExtendClientAreaToDecorationsHint="True"
-        WindowDecorations="Full"
         Background="{DynamicResource SolidBackgroundFillColorBaseBrush}">
     <Grid RowDefinitions="40,*">
         <Border Grid.Row="0"
-                Background="{DynamicResource LayerFillColorDefaultBrush}"
-                WindowDecorationProperties.ElementRole="TitleBar">
+                Background="{DynamicResource LayerFillColorDefaultBrush}">
             <DockPanel Margin="12,0">
                 <StackPanel DockPanel.Dock="Left"
                             Orientation="Horizontal"
@@ -46,7 +46,7 @@
         <ui:NavigationView Grid.Row="1"
                            x:Name="Nav"
                            PaneDisplayMode="Left"
-                             IsBackButtonVisible="Collapsed"
+                           IsBackButtonVisible="False"
                            IsPaneToggleButtonVisible="False"
                            IsSettingsVisible="False"
                            OpenPaneLength="220"
@@ -54,24 +54,24 @@
                            SelectionChanged="Nav_SelectionChanged">
             <ui:NavigationView.MenuItems>
                 <ui:NavigationViewItem Tag="General" Content="常规">
-                    <ui:NavigationViewItem.Icon>
-                        <ui:SymbolIcon Symbol="Home" />
-                    </ui:NavigationViewItem.Icon>
+                    <ui:NavigationViewItem.IconSource>
+                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Home}" />
+                    </ui:NavigationViewItem.IconSource>
                 </ui:NavigationViewItem>
                 <ui:NavigationViewItem Tag="Appearance" Content="外观">
-                    <ui:NavigationViewItem.Icon>
-                        <ui:SymbolIcon Symbol="Palette" />
-                    </ui:NavigationViewItem.Icon>
+                    <ui:NavigationViewItem.IconSource>
+                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Palette}" />
+                    </ui:NavigationViewItem.IconSource>
                 </ui:NavigationViewItem>
                 <ui:NavigationViewItem Tag="Weather" Content="天气">
-                    <ui:NavigationViewItem.Icon>
-                        <ui:SymbolIcon Symbol="Cloud" />
-                    </ui:NavigationViewItem.Icon>
+                    <ui:NavigationViewItem.IconSource>
+                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Cloud}" />
+                    </ui:NavigationViewItem.IconSource>
                 </ui:NavigationViewItem>
                 <ui:NavigationViewItem Tag="About" Content="关于">
-                    <ui:NavigationViewItem.Icon>
-                        <ui:SymbolIcon Symbol="Info" />
-                    </ui:NavigationViewItem.Icon>
+                    <ui:NavigationViewItem.IconSource>
+                        <ui:SymbolIconSource Symbol="{x:Static ui:Symbol.Info}" />
+                    </ui:NavigationViewItem.IconSource>
                 </ui:NavigationViewItem>
             </ui:NavigationView.MenuItems>
 
