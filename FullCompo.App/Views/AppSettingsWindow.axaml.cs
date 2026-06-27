@@ -133,15 +133,13 @@ public partial class AppSettingsWindow : Window
     private void BindWeatherControls()
     {
         var enabledToggle = this.FindControl<ToggleSwitch>("WeatherEnabledToggle");
-        var noTlsToggle = this.FindControl<ToggleSwitch>("WeatherNoTLSToggle");
         var cityText = this.FindControl<TextBlock>("WeatherCityText");
         var searchText = this.FindControl<TextBox>("WeatherCitySearchText");
         var searchButton = this.FindControl<Button>("WeatherSearchButton");
         var cityResults = this.FindControl<ListBox>("WeatherCityResults");
 
         if (enabledToggle != null) enabledToggle.IsChecked = _configService.AppSettings.WeatherEnabled;
-        if (noTlsToggle != null) noTlsToggle.IsChecked = _configService.AppSettings.NoTLSWeatherRequests;
-        if (cityText != null) cityText.Text = $"{_configService.AppSettings.WeatherCityName} ({_configService.AppSettings.WeatherCityId})";
+        if (cityText != null) cityText.Text = $"{_configService.AppSettings.WeatherCityName} ({_configService.AppSettings.WeatherLatitude:F2}, {_configService.AppSettings.WeatherLongitude:F2})";
 
         if (searchButton != null && searchText != null && cityResults != null)
         {
@@ -176,7 +174,7 @@ public partial class AppSettingsWindow : Window
                     _configService.AppSettings.WeatherCityName = selected.Name;
                     _configService.AppSettings.WeatherLongitude = selected.Longitude;
                     _configService.AppSettings.WeatherLatitude = selected.Latitude;
-                    if (cityText != null) cityText.Text = $"{selected.Name} ({selected.CityId})";
+                    if (cityText != null) cityText.Text = $"{selected.Name} ({selected.Latitude:F2}, {selected.Longitude:F2})";
                 }
             };
         }
@@ -259,9 +257,7 @@ public partial class AppSettingsWindow : Window
         if (clickThroughToggle != null) _configService.AppSettings.ClickThrough = clickThroughToggle.IsChecked ?? false;
 
         var weatherEnabledToggle = this.FindControl<ToggleSwitch>("WeatherEnabledToggle");
-        var weatherNoTlsToggle = this.FindControl<ToggleSwitch>("WeatherNoTLSToggle");
         if (weatherEnabledToggle != null) _configService.AppSettings.WeatherEnabled = weatherEnabledToggle.IsChecked ?? true;
-        if (weatherNoTlsToggle != null) _configService.AppSettings.NoTLSWeatherRequests = weatherNoTlsToggle.IsChecked ?? false;
 
         _configService.Save();
         _ = _weatherService.RefreshAsync();

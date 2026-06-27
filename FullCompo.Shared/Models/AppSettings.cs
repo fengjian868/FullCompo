@@ -34,7 +34,6 @@ public class AppSettings
     public bool WeatherAutoLocation { get; set; } = true;
     public double WeatherLongitude { get; set; }
     public double WeatherLatitude { get; set; }
-    public bool NoTLSWeatherRequests { get; set; }
 
     // === 更新 ===
     public bool AutoUpdate { get; set; } = true;
