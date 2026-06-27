@@ -3,7 +3,7 @@
         x:Class="FullCompo.App.Views.DesktopSurfaceWindow"
         Title="FullCompo"
         SystemDecorations="None"
-        TransparencyLevelHint="AcrylicBlur"
+        TransparencyLevelHint="Transparent"
         Background="Transparent"
         Topmost="True"
         ShowInTaskbar="False"
@@ -12,8 +12,8 @@
         WindowState="Normal"
         FontFamily="{DynamicResource ThemeFontFamily}">
     <Grid x:Name="RootGrid">
-        <!-- Edit mode overlay -->
-        <Canvas x:Name="EditOverlay" IsVisible="False" Background="#60000000" IsHitTestVisible="True" />
+        <!-- Edit mode overlay: transparent so the desktop remains fully visible -->
+        <Canvas x:Name="EditOverlay" IsVisible="False" Background="Transparent" IsHitTestVisible="True" />
         <!-- Widgets canvas -->
         <Canvas x:Name="WidgetsCanvas" Background="Transparent" IsHitTestVisible="True" />
         <!-- Edit toolbar -->
