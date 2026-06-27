@@ -156,6 +156,31 @@ public partial class App : Application
 
     private void SetupTrayIcon()
     {
+        _configService = _services.GetRequiredService<IConfigService>();
+        UpdateTrayIconVisibility();
+    }
+
+    public void UpdateTrayIconVisibility()
+    {
+        var showTrayIcon = _configService?.AppSettings.ShowTrayIcon ?? true;
+
+        if (!showTrayIcon)
+        {
+            if (_trayIcon != null)
+            {
+                _trayIcon.IsVisible = false;
+                _trayIcon = null;
+                TrayIcon.SetIcons(this, new TrayIcons());
+            }
+            return;
+        }
+
+        if (_trayIcon != null)
+        {
+            _trayIcon.IsVisible = true;
+            return;
+        }
+
         var menu = new NativeMenu();
 
         var editModeItem = new NativeMenuItem("编辑模式");

@@ -67,16 +67,14 @@ public class ConfigService : IConfigService
     {
         AppSettings = new AppSettings();
 
-        // 默认布局放在屏幕右上角（以 1920×1080 为参考，留出 16px 边距）
+        // 默认布局：单栏放在屏幕右上角（以 1920×1080 为参考，留出 16px 边距）。
+        // 组件尺寸统一使用 medium-square(140x140)，在加载时会被自动适配到当前屏幕右下角/右上角。
         const double screenRight = 1920 - 16;
-        const double rightColWidth = 140; // medium-square
-        const double leftColWidth = 200;  // medium-hbar
+        const double widgetWidth = 140; // medium-square
         const double gap = 8;
         const double top = 16;
-        const double rowHeight = 140;
 
-        var rightColX = screenRight - rightColWidth;
-        var leftColX = rightColX - gap - leftColWidth;
+        var colX = screenRight - widgetWidth;
 
         Panels = new List<PanelConfig>
         {
@@ -85,10 +83,9 @@ public class ConfigService : IConfigService
                 Name = "默认面板",
                 Widgets = new List<WidgetInstanceConfig>
                 {
-                    new() { WidgetId = "builtin.date", SizeId = "medium-hbar", PosX = leftColX, PosY = top },
-                    new() { WidgetId = "builtin.clock", SizeId = "medium-square", PosX = rightColX, PosY = top },
-                    new() { WidgetId = "builtin.weather", SizeId = "medium-hbar", PosX = leftColX, PosY = top + rowHeight + gap },
-                    new() { WidgetId = "builtin.search", SizeId = "medium-hbar", PosX = rightColX, PosY = top + rowHeight + gap }
+                    new() { WidgetId = "builtin.clock", SizeId = "medium-square", PosX = colX, PosY = top },
+                    new() { WidgetId = "builtin.date", SizeId = "medium-square", PosX = colX, PosY = top + widgetWidth + gap },
+                    new() { WidgetId = "builtin.weather", SizeId = "medium-square", PosX = colX, PosY = top + (widgetWidth + gap) * 2 }
                 }
             }
         };

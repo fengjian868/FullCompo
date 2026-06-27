@@ -265,6 +265,12 @@ public partial class AppSettingsWindow : Window
 
         _configService.Save();
         _ = _weatherService.RefreshAsync();
+
+        if (Application.Current is App app)
+        {
+            app.UpdateTrayIconVisibility();
+        }
+
         Close();
     }
 }
