@@ -1,5 +1,6 @@
 using FullCompo.Core.Abstractions;
 using FullCompo.Widgets.Builtin.Widgets.Calendar;
+using FullCompo.Widgets.Builtin.Widgets.Clock;
 using FullCompo.Widgets.Builtin.Widgets.Monitor;
 using FullCompo.Widgets.Builtin.Widgets.Notes;
 using FullCompo.Widgets.Builtin.Widgets.Reminders;
