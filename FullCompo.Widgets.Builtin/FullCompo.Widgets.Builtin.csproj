@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.2.6" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>

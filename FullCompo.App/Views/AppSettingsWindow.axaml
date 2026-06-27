@@ -126,12 +126,6 @@
                         </Grid>
                         <ListBox x:Name="WeatherCityResults" MaxHeight="160" />
                     </StackPanel>
-
-                    <StackPanel Spacing="8">
-                        <TextBlock Text="不使用 TLS 获取天气" Foreground="{DynamicResource ThemeForegroundBrush}" FontSize="14" />
-                        <TextBlock Text="不建议，但可能改善兼容性较差的网络环境。" Foreground="{DynamicResource ThemeSecondaryForegroundBrush}" FontSize="12" />
-                        <ToggleSwitch x:Name="WeatherNoTLSToggle" />
-                    </StackPanel>
                 </StackPanel>
             </ScrollViewer>
 
