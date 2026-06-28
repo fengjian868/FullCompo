@@ -370,14 +370,31 @@ public partial class DesktopSurfaceWindow : Window
     public void EnterEditMode()
     {
         _isEditMode = true;
+
+        // 保存当前窗口状态，编辑模式下强制全屏覆盖整个桌面
+        _preEditWindowState = WindowState;
+        _preEditPosition = Position;
+        _preEditWidth = Width;
+        _preEditHeight = Height;
+
+        var screen = Screens.Primary;
+        var screenBounds = screen?.Bounds ?? new PixelRect(0, 0, 1920, 1080);
+        WindowState = WindowState.FullScreen;
+        Position = new PixelPoint(screenBounds.X, screenBounds.Y);
+        Width = screenBounds.Width;
+        Height = screenBounds.Height;
+
         UpdateClickThrough();
+
         var overlay = this.FindControl<Canvas>("EditOverlay");
         var toolbar = this.FindControl<Border>("EditToolbar");
 
         if (overlay != null) overlay.IsVisible = true;
         if (toolbar != null) toolbar.IsVisible = true;
 
+        SizeChanged += OnEditModeSizeChanged;
         DrawGrid();
+
         foreach (var container in _widgetContainers)
         {
             container.SetEditMode(true);
@@ -389,6 +406,8 @@ public partial class DesktopSurfaceWindow : Window
     public void ExitEditMode()
     {
         _isEditMode = false;
+        SizeChanged -= OnEditModeSizeChanged;
+
         var overlay = this.FindControl<Canvas>("EditOverlay");
         var toolbar = this.FindControl<Border>("EditToolbar");
 
@@ -408,8 +427,20 @@ public partial class DesktopSurfaceWindow : Window
         }
 
         SaveLayout();
+
+        // 恢复编辑前的窗口状态
+        WindowState = _preEditWindowState;
+        Position = _preEditPosition;
+        Width = _preEditWidth;
+        Height = _preEditHeight;
+
         UpdateClickThrough();
         EditModeChanged?.Invoke(this, false);
+    }
+
+    private void OnEditModeSizeChanged(object? sender, SizeChangedEventArgs e)
+    {
+        if (_isEditMode) DrawGrid();
     }
 
     private void RemovePlaceholderWidgets()
