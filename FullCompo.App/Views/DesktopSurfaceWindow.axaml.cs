@@ -32,6 +32,11 @@ public partial class DesktopSurfaceWindow : Window
     private WidgetContainer? _selectedContainer;
     private bool _isDragging;
 
+    private WindowState _preEditWindowState = WindowState.Normal;
+    private PixelPoint _preEditPosition;
+    private double _preEditWidth;
+    private double _preEditHeight;
+
     private const double GridSize = 80.0;
     private const double SnapThreshold = 20.0;
 
@@ -678,17 +683,9 @@ public partial class DesktopSurfaceWindow : Window
     {
         return new[]
         {
-            new WidgetSize { Id = "mini-bar", Name = "迷你条", Width = 100, Height = 40, Type = WidgetSizeType.Small },
-            new WidgetSize { Id = "small-vbar", Name = "小竖条", Width = 40, Height = 100, Type = WidgetSizeType.Small },
-            new WidgetSize { Id = "small-hbar", Name = "小长条", Width = 180, Height = 40, Type = WidgetSizeType.Small },
-            new WidgetSize { Id = "small-circle", Name = "小圆", Width = 80, Height = 80, Type = WidgetSizeType.Small, IsCircular = true },
-            new WidgetSize { Id = "small-square", Name = "小方", Width = 80, Height = 80, Type = WidgetSizeType.Small },
-            new WidgetSize { Id = "medium-hbar", Name = "中横条", Width = 200, Height = 100, Type = WidgetSizeType.Medium },
-            new WidgetSize { Id = "medium-square", Name = "中方", Width = 140, Height = 140, Type = WidgetSizeType.Medium },
-            new WidgetSize { Id = "medium-vbar", Name = "中竖条", Width = 100, Height = 200, Type = WidgetSizeType.Medium },
-            new WidgetSize { Id = "large-square", Name = "大方", Width = 220, Height = 220, Type = WidgetSizeType.Large },
-            new WidgetSize { Id = "large-vbar", Name = "大竖条", Width = 160, Height = 320, Type = WidgetSizeType.Large },
-            new WidgetSize { Id = "large-hbar", Name = "大横条", Width = 320, Height = 160, Type = WidgetSizeType.Large }
+            new WidgetSize { Id = "small-square", Name = "小组件", Width = 80, Height = 80, Type = WidgetSizeType.Small },
+            new WidgetSize { Id = "medium-hbar", Name = "中组件", Width = 160, Height = 80, Type = WidgetSizeType.Medium },
+            new WidgetSize { Id = "large-hbar", Name = "大组件", Width = 320, Height = 80, Type = WidgetSizeType.Large }
         };
     }
 

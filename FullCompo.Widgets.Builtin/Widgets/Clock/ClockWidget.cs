@@ -18,9 +18,9 @@ public class ClockWidget : WidgetBase
 
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
-        new WidgetSize { Id = "small-square", Name = "小方", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
-        new WidgetSize { Id = "medium-hbar", Name = "中横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 200, Height = 100 },
-        new WidgetSize { Id = "large-hbar", Name = "大横条", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 160 }
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
     };
 
     public override WidgetSettings CreateDefaultSettings()
