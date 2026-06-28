@@ -628,3 +628,23305 @@ public class WeatherWidget : WidgetBase
         };
     }
 }
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+usingusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+usingusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompousing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtinusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override stringusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackgroundusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-husing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        newusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Heightusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(Widgetusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettingsusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = newusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.Getusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        ifusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            Weatherusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV =>using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            Weatherusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureViewusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context,using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        varusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel {using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Addusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewModeusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static Weatherusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    privateusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Borderusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.Currentusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 &&using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        varusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.Isusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityTextusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.Whiteusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimmingusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        varusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWideusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ?using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foregroundusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempTextusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWideusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foregroundusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        }using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignmentusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ?using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 :using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimmingusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        voidusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToStringusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperatureusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWideusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = newusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanelusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            varusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = Verticalusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanelusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Childrenusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanelusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new Stackusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Centerusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel,using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanelusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Childrenusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.Setusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(Gridusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(husing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new Stackusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontalusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Addusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Addusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanelusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel,using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTimeusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        }using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >=using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment =using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Addusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeightusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Heightusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignmentusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlockusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{hour.Temperature.Value:F0}°",
+                Foreground = Brushes.White,
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{hour.Temperature.Value:F0}°",
+                Foreground = Brushes.White,
+                FontSize = 11,
+                FontWeight = FontWeight.Bold,
+                HorizontalAlignmentusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{hour.Temperature.Value:F0}°",
+                Foreground = Brushes.White,
+                FontSize = 11,
+                FontWeight = FontWeight.Bold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+
+            panel.Children.Add(cell);
+        }
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{hour.Temperature.Value:F0}°",
+                Foreground = Brushes.White,
+                FontSize = 11,
+                FontWeight = FontWeight.Bold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+
+            panel.Children.Add(cell);
+        }
+
+        return panel;
+    }
+
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{hour.Temperature.Value:F0}°",
+                Foreground = Brushes.White,
+                FontSize = 11,
+                FontWeight = FontWeight.Bold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+
+            panel.Children.Add(cell);
+        }
+
+        return panel;
+    }
+
+    private Control CreateForecastView(WidgetContext contextusing Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
+using Avalonia.Layout;
+using Avalonia.Media;
+using FullCompo.Core.Abstractions.Services;
+using FullCompo.Core.Models;
+using FullCompo.Shared.Enums;
+using FullCompo.Shared.Models;
+using FullCompo.Shared.Models.Weather;
+
+namespace FullCompo.Widgets.Builtin.Widgets.Weather;
+
+public class WeatherWidget : WidgetBase
+{
+    public override string Id => "builtin.weather";
+    public override string Name => "天气";
+    public override string Description => "显示天气信息，支持多种视图";
+    public override bool HasCustomBackground => true;
+
+    public override IEnumerable<WidgetSize> SupportedSizes => new[]
+    {
+        new WidgetSize { Id = "small-square", Name = "小组件", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
+        new WidgetSize { Id = "medium-hbar", Name = "中组件", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 160, Height = 80 },
+        new WidgetSize { Id = "large-hbar", Name = "大组件", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 80 }
+    };
+
+    private IConfigService? _configService;
+
+    public override void OnActivated(WidgetContext context)
+    {
+        _configService = context.GetService<IConfigService>();
+        base.OnActivated(context);
+    }
+
+    public override WidgetSettings CreateDefaultSettings()
+    {
+        var settings = new WidgetSettings();
+        settings.SetValue("viewMode", WeatherViewMode.Current.ToString());
+        return settings;
+    }
+
+    public override Control CreateView(WidgetContext context)
+    {
+        var weatherService = context.GetService<IWeatherService>();
+        var viewMode = ParseViewMode(context.Settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var info = weatherService?.LastWeatherInfo;
+
+        if (info == null)
+        {
+            return CreatePlaceholder("未获取天气");
+        }
+
+        return viewMode switch
+        {
+            WeatherViewMode.Forecast => CreateForecastView(context, info),
+            WeatherViewMode.Temperature => CreateTemperatureView(context, info),
+            WeatherViewMode.UV => CreateUvView(context, info),
+            WeatherViewMode.SunriseSunset => CreateSunriseSunsetView(context, info),
+            WeatherViewMode.Pressure => CreatePressureView(context, info),
+            WeatherViewMode.AirQuality => CreateAirQualityView(context, info),
+            _ => CreateCurrentView(context, info)
+        };
+    }
+
+    public override Control? CreateSettingsView(WidgetSettings settings)
+    {
+        var current = ParseViewMode(settings.GetValue("viewMode", WeatherViewMode.Current.ToString()));
+
+        var panel = new StackPanel { Spacing = 8 };
+        panel.Children.Add(new TextBlock { Text = "视图模式" });
+
+        var combo = new ComboBox();
+        foreach (WeatherViewMode mode in Enum.GetValues<WeatherViewMode>())
+        {
+            combo.Items.Add(mode.ToString());
+        }
+        combo.SelectedItem = current.ToString();
+        combo.SelectionChanged += (_, _) =>
+        {
+            if (combo.SelectedItem is string selected)
+                settings.SetValue("viewMode", selected);
+        };
+
+        panel.Children.Add(combo);
+        return panel;
+    }
+
+    private static WeatherViewMode ParseViewMode(string? value)
+    {
+        if (Enum.TryParse<WeatherViewMode>(value, out var mode))
+            return mode;
+        return WeatherViewMode.Current;
+    }
+
+    private static Control CreateCard(Control content, IBrush background)
+    {
+        return new Border
+        {
+            Background = background,
+            CornerRadius = new CornerRadius(20),
+            Padding = new Thickness(14),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
+            Child = content
+        };
+    }
+
+    private Control CreateCurrentView(WidgetContext context, WeatherInfo info)
+    {
+        var isLarge = context.CurrentSize.Rows >= 2;
+        var isWide = context.CurrentSize.Columns >= 2 && context.CurrentSize.Rows == 1;
+
+        var current = info.Current;
+        var (start, end) = OpenMeteoWeatherCode.GetGradient(current.WeatherCode, current.IsDay);
+        var background = CreateGradientBrush(start, end);
+
+        var cityText = new TextBlock
+        {
+            FontSize = isLarge ? 15 : 12,
+            FontWeight = FontWeight.SemiBold,
+            Foreground = Brushes.White,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var icon = new PathIcon
+        {
+            Width = isLarge ? 56 : isWide ? 40 : 32,
+            Height = isLarge ? 56 : isWide ? 40 : 32,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Center,
+            Data = GetWeatherIcon(current.WeatherCode, current.IsDay)
+        };
+
+        var tempText = new TextBlock
+        {
+            FontSize = isLarge ? 40 : isWide ? 32 : 24,
+            FontWeight = FontWeight.Light,
+            Foreground = Brushes.White,
+            VerticalAlignment = VerticalAlignment.Top
+        };
+
+        var unitText = new TextBlock
+        {
+            FontSize = isLarge ? 18 : 12,
+            Foreground = Brushes.White,
+            Opacity = 0.85,
+            VerticalAlignment = VerticalAlignment.Top,
+            Margin = new Thickness(2, isLarge ? 6 : 2, 0, 0)
+        };
+
+        var conditionText = new TextBlock
+        {
+            FontSize = isLarge ? 14 : isWide ? 13 : 11,
+            Foreground = Brushes.White,
+            Opacity = 0.9,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        var minMaxText = new TextBlock
+        {
+            FontSize = isLarge ? 12 : isWide ? 11 : 10,
+            Foreground = Brushes.White,
+            Opacity = 0.8,
+            TextTrimming = TextTrimming.CharacterEllipsis,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+
+        void Update()
+        {
+            cityText.Text = _configService?.AppSettings.WeatherCityName ?? "";
+            tempText.Text = ((int)current.Temperature.Value).ToString();
+            unitText.Text = current.Temperature.Unit;
+            conditionText.Text = current.WeatherText;
+            minMaxText.Text = BuildMinMax(info);
+        }
+
+        Update();
+
+        if (isWide)
+        {
+            var root = new Grid
+            {
+                ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
+                RowDefinitions = new RowDefinitions("Auto,*")
+            };
+
+            var headerPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 6
+            };
+            headerPanel.Children.Add(cityText);
+            Grid.SetColumnSpan(headerPanel, 2);
+            root.Children.Add(headerPanel);
+
+            var leftPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Spacing = 8,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            leftPanel.Children.Add(icon);
+            var tempPanel = new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                VerticalAlignment = VerticalAlignment.Center
+            };
+            tempPanel.Children.Add(tempText);
+            tempPanel.Children.Add(unitText);
+            leftPanel.Children.Add(tempPanel);
+            Grid.SetRow(leftPanel, 1);
+            root.Children.Add(leftPanel);
+
+            var rightPanel = new StackPanel
+            {
+                Spacing = 2,
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            rightPanel.Children.Add(conditionText);
+            rightPanel.Children.Add(minMaxText);
+            Grid.SetRow(rightPanel, 1);
+            Grid.SetColumn(rightPanel, 1);
+            Grid.SetColumnSpan(rightPanel, 2);
+            root.Children.Add(rightPanel);
+
+            if (context.CurrentSize.Columns >= 4)
+            {
+                var hourlyRow = CreateHourlyForecastRow(info);
+                Grid.SetRow(hourlyRow, 2);
+                Grid.SetColumnSpan(hourlyRow, 3);
+                root.RowDefinitions.Add(new RowDefinition(GridLength.Star));
+                root.Children.Add(hourlyRow);
+            }
+
+            return CreateCard(root, background);
+        }
+
+        var smallPanel = new Grid
+        {
+            RowDefinitions = new RowDefinitions("Auto,*,Auto,Auto")
+        };
+        smallPanel.Children.Add(cityText);
+
+        var iconTempPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 6,
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+        iconTempPanel.Children.Add(icon);
+        var tempUnitPanel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            VerticalAlignment = VerticalAlignment.Center
+        };
+        tempUnitPanel.Children.Add(tempText);
+        tempUnitPanel.Children.Add(unitText);
+        iconTempPanel.Children.Add(tempUnitPanel);
+        Grid.SetRow(iconTempPanel, 1);
+        smallPanel.Children.Add(iconTempPanel);
+
+        Grid.SetRow(conditionText, 2);
+        smallPanel.Children.Add(conditionText);
+
+        Grid.SetRow(minMaxText, 3);
+        smallPanel.Children.Add(minMaxText);
+
+        return CreateCard(smallPanel, background);
+    }
+
+    private Control CreateHourlyForecastRow(WeatherInfo info)
+    {
+        var now = DateTime.Now;
+        var panel = new StackPanel
+        {
+            Orientation = Orientation.Horizontal,
+            Spacing = 12,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
+        };
+
+        foreach (var hour in info.ForecastHourly.Where(h => h.Time >= now).Take(6))
+        {
+            var cell = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Spacing = 2,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                VerticalAlignment = VerticalAlignment.Center,
+                MinWidth = 36
+            };
+
+            var isDay = hour.Time.Hour is >= 6 and < 18;
+            cell.Children.Add(new TextBlock
+            {
+                Text = hour.Time.ToString("HH:mm"),
+                Foreground = Brushes.White,
+                Opacity = 0.7,
+                FontSize = 10,
+                FontWeight = FontWeight.SemiBold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+            cell.Children.Add(new PathIcon
+            {
+                Width = 18,
+                Height = 18,
+                Foreground = Brushes.White,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Data = GetWeatherIcon(hour.WeatherCode, isDay)
+            });
+            cell.Children.Add(new TextBlock
+            {
+                Text = $"{hour.Temperature.Value:F0}°",
+                Foreground = Brushes.White,
+                FontSize = 11,
+                FontWeight = FontWeight.Bold,
+                HorizontalAlignment = HorizontalAlignment.Center
+            });
+
+            panel.Children.Add(cell);
+        }
+
+        return panel;
+    }
+
+    private Control CreateForecastView(WidgetContext context, WeatherInfo info)
+    {
+        var (start, end) = OpenMeteo
