@@ -18,10 +18,8 @@ public class DateWidget : WidgetBase
     public override IEnumerable<WidgetSize> SupportedSizes => new[]
     {
         new WidgetSize { Id = "small-square", Name = "小方", Type = WidgetSizeType.Small, Columns = 1, Rows = 1, Width = 80, Height = 80 },
-        new WidgetSize { Id = "mini-bar", Name = "迷你条", Type = WidgetSizeType.Small, Columns = 2, Rows = 1, Width = 100, Height = 40 },
-        new WidgetSize { Id = "small-hbar", Name = "小长条", Type = WidgetSizeType.Small, Columns = 2, Rows = 1, Width = 180, Height = 40 },
         new WidgetSize { Id = "medium-hbar", Name = "中横条", Type = WidgetSizeType.Medium, Columns = 2, Rows = 1, Width = 200, Height = 100 },
-        new WidgetSize { Id = "medium-square", Name = "中方", Type = WidgetSizeType.Medium, Columns = 2, Rows = 2, Width = 140, Height = 140 }
+        new WidgetSize { Id = "large-hbar", Name = "大横条", Type = WidgetSizeType.Large, Columns = 4, Rows = 1, Width = 320, Height = 160 }
     };
 
     public override Control CreateView(WidgetContext context)
